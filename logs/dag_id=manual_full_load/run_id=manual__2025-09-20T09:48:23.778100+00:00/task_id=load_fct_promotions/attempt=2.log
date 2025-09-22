@@ -1,0 +1,38 @@
+[2025-09-20T12:03:33.822+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: manual_full_load.load_fct_promotions manual__2025-09-20T09:48:23.778100+00:00 [queued]>
+[2025-09-20T12:03:33.835+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: manual_full_load.load_fct_promotions manual__2025-09-20T09:48:23.778100+00:00 [queued]>
+[2025-09-20T12:03:33.836+0200] {taskinstance.py:1308} INFO - Starting attempt 2 of 2
+[2025-09-20T12:03:33.852+0200] {taskinstance.py:1327} INFO - Executing <Task(PostgresOperator): load_fct_promotions> on 2025-09-20 09:48:23.778100+00:00
+[2025-09-20T12:03:33.855+0200] {standard_task_runner.py:57} INFO - Started process 7293 to run task
+[2025-09-20T12:03:33.858+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'manual_full_load', 'load_fct_promotions', 'manual__2025-09-20T09:48:23.778100+00:00', '--job-id', '102', '--raw', '--subdir', 'DAGS_FOLDER/manual_full_load.py', '--cfg-path', '/tmp/tmpwyn2m2st']
+[2025-09-20T12:03:33.864+0200] {standard_task_runner.py:85} INFO - Job 102: Subtask load_fct_promotions
+[2025-09-20T12:03:33.924+0200] {task_command.py:410} INFO - Running <TaskInstance: manual_full_load.load_fct_promotions manual__2025-09-20T09:48:23.778100+00:00 [running]> on host 1102361e702e
+[2025-09-20T12:03:34.042+0200] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='manual_full_load' AIRFLOW_CTX_TASK_ID='load_fct_promotions' AIRFLOW_CTX_EXECUTION_DATE='2025-09-20T09:48:23.778100+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-09-20T09:48:23.778100+00:00'
+[2025-09-20T12:03:34.043+0200] {sql.py:265} INFO - Executing: 
+        INSERT INTO dwh.fct_promotions (promo_id, product_id, start_date, end_date, discount, description)
+        SELECT promo_id, product_id, start_date, end_date, discount, description
+        FROM staging.promotions_stg;
+        
+[2025-09-20T12:03:34.067+0200] {base.py:73} INFO - Using connection ID 'postgres_retail' for task execution.
+[2025-09-20T12:03:34.151+0200] {base.py:73} INFO - Using connection ID 'postgres_retail' for task execution.
+[2025-09-20T12:03:34.158+0200] {sql.py:375} INFO - Running statement: 
+        INSERT INTO dwh.fct_promotions (promo_id, product_id, start_date, end_date, discount, description)
+        SELECT promo_id, product_id, start_date, end_date, discount, description
+        FROM staging.promotions_stg;
+        , parameters: None
+[2025-09-20T12:03:34.161+0200] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/operators/sql.py", line 277, in execute
+    **extra_kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/hooks/sql.py", line 349, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/hooks/sql.py", line 380, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "fct_promotions_pkey"
+DETAIL:  Key (promo_id)=(1) already exists.
+
+[2025-09-20T12:03:34.175+0200] {taskinstance.py:1350} INFO - Marking task as FAILED. dag_id=manual_full_load, task_id=load_fct_promotions, execution_date=20250920T094823, start_date=20250920T100333, end_date=20250920T100334
+[2025-09-20T12:03:34.189+0200] {standard_task_runner.py:109} ERROR - Failed to execute job 102 for task load_fct_promotions (duplicate key value violates unique constraint "fct_promotions_pkey"
+DETAIL:  Key (promo_id)=(1) already exists.
+; 7293)
+[2025-09-20T12:03:34.243+0200] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2025-09-20T12:03:34.310+0200] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

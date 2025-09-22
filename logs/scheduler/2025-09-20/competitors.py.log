@@ -1,0 +1,777 @@
+[2025-09-20T11:15:21.098+0200] {processor.py:157} INFO - Started process (PID=3098) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:15:21.099+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:15:21.100+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:15:21.099+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:15:21.116+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:15:21.226+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:15:21.226+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:15:21.251+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:15:21.251+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:15:21.270+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.175 seconds
+[2025-09-20T11:15:51.726+0200] {processor.py:157} INFO - Started process (PID=3128) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:15:51.727+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:15:51.728+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:15:51.728+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:15:51.741+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:15:51.770+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:15:51.770+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:15:51.793+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:15:51.793+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:15:51.806+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.084 seconds
+[2025-09-20T11:16:22.196+0200] {processor.py:157} INFO - Started process (PID=3158) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:16:22.198+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:16:22.198+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:16:22.198+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:16:22.214+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:16:22.246+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:16:22.246+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:16:22.272+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:16:22.272+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:16:22.290+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.097 seconds
+[2025-09-20T11:16:52.717+0200] {processor.py:157} INFO - Started process (PID=3188) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:16:52.718+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:16:52.718+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:16:52.718+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:16:52.730+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:16:52.758+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:16:52.758+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:16:52.781+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:16:52.780+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:16:52.796+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.082 seconds
+[2025-09-20T11:17:23.134+0200] {processor.py:157} INFO - Started process (PID=3218) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:17:23.135+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:17:23.136+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:17:23.136+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:17:23.151+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:17:23.181+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:17:23.181+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:17:23.202+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:17:23.202+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:17:23.219+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.089 seconds
+[2025-09-20T11:17:53.677+0200] {processor.py:157} INFO - Started process (PID=3248) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:17:53.678+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:17:53.679+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:17:53.679+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:17:53.687+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:17:53.713+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:17:53.713+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:17:53.734+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:17:53.734+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:17:53.751+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.077 seconds
+[2025-09-20T11:18:24.184+0200] {processor.py:157} INFO - Started process (PID=3278) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:18:24.186+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:18:24.187+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:18:24.187+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:18:24.207+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:18:24.244+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:18:24.243+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:18:24.268+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:18:24.268+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:18:24.283+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.104 seconds
+[2025-09-20T11:18:54.706+0200] {processor.py:157} INFO - Started process (PID=3310) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:18:54.711+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:18:54.712+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:18:54.711+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:18:54.727+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:18:54.757+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:18:54.757+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:18:54.781+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:18:54.781+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:18:54.799+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.097 seconds
+[2025-09-20T11:19:25.269+0200] {processor.py:157} INFO - Started process (PID=3344) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:19:25.270+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:19:25.271+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:19:25.271+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:19:25.286+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:19:25.310+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:19:25.310+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:19:25.331+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:19:25.331+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:19:25.345+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.079 seconds
+[2025-09-20T11:19:55.771+0200] {processor.py:157} INFO - Started process (PID=3374) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:19:55.772+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:19:55.772+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:19:55.772+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:19:55.782+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:19:55.805+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:19:55.805+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:19:55.827+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:19:55.826+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:19:55.839+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.072 seconds
+[2025-09-20T11:20:26.413+0200] {processor.py:157} INFO - Started process (PID=3414) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:20:26.415+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:20:26.415+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:20:26.415+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:20:26.430+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:20:26.461+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:20:26.460+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:20:26.484+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:20:26.484+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:20:26.498+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.089 seconds
+[2025-09-20T11:20:56.985+0200] {processor.py:157} INFO - Started process (PID=3454) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:20:56.987+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:20:56.988+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:20:56.988+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:20:57.002+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:20:57.027+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:20:57.027+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:20:57.049+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:20:57.049+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:20:57.064+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.084 seconds
+[2025-09-20T11:21:27.554+0200] {processor.py:157} INFO - Started process (PID=3494) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:21:27.556+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:21:27.557+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:21:27.557+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:21:27.571+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:21:27.595+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:21:27.595+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:21:27.615+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:21:27.615+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:21:27.631+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.082 seconds
+[2025-09-20T11:21:58.203+0200] {processor.py:157} INFO - Started process (PID=3534) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:21:58.205+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:21:58.206+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:21:58.206+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:21:58.228+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:21:58.250+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:21:58.250+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:21:58.274+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:21:58.273+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:21:58.286+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.087 seconds
+[2025-09-20T11:22:28.839+0200] {processor.py:157} INFO - Started process (PID=3574) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:22:28.840+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:22:28.841+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:22:28.840+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:22:28.859+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:22:28.889+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:22:28.889+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:22:28.911+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:22:28.911+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:22:28.927+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.093 seconds
+[2025-09-20T11:22:59.387+0200] {processor.py:157} INFO - Started process (PID=3614) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:22:59.388+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:22:59.389+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:22:59.389+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:22:59.404+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:22:59.438+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:22:59.438+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:22:59.459+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:22:59.459+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:22:59.475+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.092 seconds
+[2025-09-20T11:23:29.932+0200] {processor.py:157} INFO - Started process (PID=3674) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:23:29.933+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:23:29.934+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:23:29.934+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:23:29.951+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:23:29.984+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:23:29.984+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:23:30.009+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:23:30.009+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:23:30.028+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.099 seconds
+[2025-09-20T11:24:00.571+0200] {processor.py:157} INFO - Started process (PID=3714) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:24:00.572+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:24:00.572+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:24:00.572+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:24:00.588+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:24:00.616+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:24:00.616+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:24:00.638+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:24:00.637+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:24:00.652+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.085 seconds
+[2025-09-20T11:24:31.222+0200] {processor.py:157} INFO - Started process (PID=3754) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:24:31.223+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:24:31.224+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:24:31.223+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:24:31.241+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:24:31.272+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:24:31.272+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:24:31.298+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:24:31.298+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:24:31.314+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.097 seconds
+[2025-09-20T11:25:01.852+0200] {processor.py:157} INFO - Started process (PID=3794) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:25:01.853+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:25:01.854+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:25:01.854+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:25:01.871+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:25:01.897+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:25:01.897+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:25:01.918+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:25:01.917+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:25:01.934+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.087 seconds
+[2025-09-20T11:25:32.547+0200] {processor.py:157} INFO - Started process (PID=3834) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:25:32.549+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:25:32.550+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:25:32.550+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:25:32.571+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:25:32.594+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:25:32.594+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:25:32.616+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:25:32.616+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:25:32.635+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.092 seconds
+[2025-09-20T11:26:03.305+0200] {processor.py:157} INFO - Started process (PID=3874) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:26:03.306+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:26:03.307+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:26:03.307+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:26:03.317+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:26:03.343+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:26:03.343+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:26:03.368+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:26:03.367+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:26:03.384+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.081 seconds
+[2025-09-20T11:26:33.864+0200] {processor.py:157} INFO - Started process (PID=3914) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:26:33.865+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:26:33.865+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:26:33.865+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:26:33.877+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:26:33.901+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:26:33.901+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:26:33.924+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:26:33.923+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:26:33.938+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.077 seconds
+[2025-09-20T11:27:04.355+0200] {processor.py:157} INFO - Started process (PID=3954) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:27:04.356+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:27:04.357+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:27:04.356+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:27:04.368+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:27:04.392+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:27:04.392+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:27:04.416+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:27:04.416+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:27:04.432+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.081 seconds
+[2025-09-20T11:27:34.877+0200] {processor.py:157} INFO - Started process (PID=4001) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:27:34.878+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:27:34.879+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:27:34.879+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:27:34.899+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:27:34.921+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:27:34.921+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:27:34.947+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:27:34.947+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:27:34.967+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.093 seconds
+[2025-09-20T11:28:05.458+0200] {processor.py:157} INFO - Started process (PID=4042) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:28:05.459+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:28:05.460+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:28:05.459+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:28:05.476+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:28:05.500+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:28:05.500+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:28:05.526+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:28:05.526+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:28:05.542+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.088 seconds
+[2025-09-20T11:28:36.036+0200] {processor.py:157} INFO - Started process (PID=4102) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:28:36.039+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:28:36.040+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:28:36.040+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:28:36.057+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:28:36.082+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:28:36.082+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:28:36.104+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:28:36.104+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:28:36.120+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.090 seconds
+[2025-09-20T11:29:06.607+0200] {processor.py:157} INFO - Started process (PID=4145) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:29:06.608+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:29:06.609+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:29:06.608+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:29:06.630+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:29:06.659+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:29:06.659+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:29:06.685+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:29:06.685+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:29:06.699+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.096 seconds
+[2025-09-20T11:29:37.200+0200] {processor.py:157} INFO - Started process (PID=4185) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:29:37.202+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:29:37.203+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:29:37.203+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:29:37.220+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:29:37.257+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:29:37.257+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:29:37.295+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:29:37.295+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:29:37.317+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.121 seconds
+[2025-09-20T11:30:07.849+0200] {processor.py:157} INFO - Started process (PID=4225) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:30:07.850+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:30:07.851+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:30:07.850+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:30:07.862+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:30:07.885+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:30:07.885+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:30:07.908+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:30:07.908+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:30:07.925+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.079 seconds
+[2025-09-20T11:30:38.443+0200] {processor.py:157} INFO - Started process (PID=4265) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:30:38.445+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:30:38.447+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:30:38.446+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:30:38.464+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:30:38.507+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:30:38.507+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:30:38.544+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:30:38.543+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:30:38.564+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.126 seconds
+[2025-09-20T11:31:09.059+0200] {processor.py:157} INFO - Started process (PID=4305) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:31:09.060+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:31:09.061+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:31:09.061+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:31:09.076+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:31:09.100+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:31:09.100+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:31:09.127+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:31:09.126+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:31:09.141+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.086 seconds
+[2025-09-20T11:31:39.594+0200] {processor.py:157} INFO - Started process (PID=4345) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:31:39.595+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:31:39.598+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:31:39.598+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:31:39.609+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:31:39.629+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:31:39.629+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:31:39.650+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:31:39.650+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:31:39.666+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.074 seconds
+[2025-09-20T11:32:10.163+0200] {processor.py:157} INFO - Started process (PID=4385) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:32:10.168+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:32:10.168+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:32:10.168+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:32:10.182+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:32:10.206+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:32:10.205+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:32:10.237+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:32:10.237+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:32:10.251+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.091 seconds
+[2025-09-20T11:32:40.774+0200] {processor.py:157} INFO - Started process (PID=4424) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:32:40.776+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:32:40.776+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:32:40.776+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:32:40.793+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:32:40.824+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:32:40.824+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:32:40.862+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:32:40.862+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:32:40.882+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.116 seconds
+[2025-09-20T11:33:11.394+0200] {processor.py:157} INFO - Started process (PID=4465) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:33:11.395+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:33:11.396+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:33:11.395+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:33:11.410+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:33:11.432+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:33:11.432+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:33:11.457+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:33:11.456+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:33:11.474+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.084 seconds
+[2025-09-20T11:33:41.982+0200] {processor.py:157} INFO - Started process (PID=4505) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:33:41.983+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:33:41.984+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:33:41.984+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:33:41.998+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:33:42.019+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:33:42.019+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:33:42.045+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:33:42.045+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:33:42.062+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.084 seconds
+[2025-09-20T11:34:12.560+0200] {processor.py:157} INFO - Started process (PID=4545) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:34:12.562+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:34:12.563+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:34:12.563+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:34:12.580+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:34:12.614+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:34:12.614+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:34:12.654+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:34:12.654+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:34:12.676+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.122 seconds
+[2025-09-20T11:34:43.239+0200] {processor.py:157} INFO - Started process (PID=4585) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:34:43.240+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:34:43.241+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:34:43.240+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:34:43.265+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:34:43.297+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:34:43.296+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:34:43.329+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:34:43.329+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:34:43.365+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.130 seconds
+[2025-09-20T11:35:13.882+0200] {processor.py:157} INFO - Started process (PID=4625) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:35:13.885+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:35:13.887+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:35:13.886+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:35:13.910+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:35:13.939+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:35:13.939+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:35:13.964+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:35:13.964+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:35:13.980+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.103 seconds
+[2025-09-20T11:35:44.518+0200] {processor.py:157} INFO - Started process (PID=4670) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:35:44.524+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:35:44.525+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:35:44.525+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:35:44.542+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:35:44.569+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:35:44.569+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:35:44.596+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:35:44.596+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:35:44.610+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.098 seconds
+[2025-09-20T11:36:15.099+0200] {processor.py:157} INFO - Started process (PID=4715) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:36:15.101+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:36:15.103+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:36:15.102+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:36:15.120+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:36:15.143+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:36:15.143+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:36:15.167+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:36:15.167+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:36:15.184+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.089 seconds
+[2025-09-20T11:36:45.773+0200] {processor.py:157} INFO - Started process (PID=4760) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:36:45.774+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:36:45.776+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:36:45.776+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:36:45.806+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:36:45.851+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:36:45.851+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:36:45.880+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:36:45.880+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:36:45.895+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.128 seconds
+[2025-09-20T11:37:16.374+0200] {processor.py:157} INFO - Started process (PID=4805) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:37:16.378+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:37:16.380+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:37:16.380+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:37:16.395+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:37:16.415+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:37:16.415+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:37:16.439+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:37:16.439+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:37:16.452+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.083 seconds
+[2025-09-20T11:37:46.927+0200] {processor.py:157} INFO - Started process (PID=4850) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:37:46.928+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:37:46.928+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:37:46.928+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:37:46.949+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:37:46.977+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:37:46.976+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:37:47.001+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:37:47.001+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:37:47.013+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.089 seconds
+[2025-09-20T11:38:17.490+0200] {processor.py:157} INFO - Started process (PID=4895) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:38:17.493+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:38:17.493+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:38:17.493+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:38:17.509+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:38:17.530+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:38:17.530+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:38:17.551+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:38:17.551+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:38:17.565+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.078 seconds
+[2025-09-20T11:38:48.183+0200] {processor.py:157} INFO - Started process (PID=4945) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:38:48.184+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:38:48.185+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:38:48.185+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:38:48.197+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:38:48.228+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:38:48.228+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:38:48.257+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:38:48.257+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:38:48.273+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.094 seconds
+[2025-09-20T11:39:18.803+0200] {processor.py:157} INFO - Started process (PID=4990) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:39:18.806+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:39:18.807+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:39:18.807+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:39:18.819+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:39:18.842+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:39:18.842+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:39:18.864+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:39:18.864+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:39:18.879+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.079 seconds
+[2025-09-20T11:39:49.391+0200] {processor.py:157} INFO - Started process (PID=5037) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:39:49.393+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:39:49.394+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:39:49.393+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:39:49.409+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:39:49.442+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:39:49.442+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:39:49.474+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:39:49.474+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:39:49.492+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.106 seconds
+[2025-09-20T11:40:20.055+0200] {processor.py:157} INFO - Started process (PID=5084) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:40:20.057+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:40:20.058+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:40:20.058+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:40:20.090+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:40:20.135+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:40:20.134+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:40:20.173+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:40:20.172+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:40:20.190+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.141 seconds
+[2025-09-20T11:40:50.855+0200] {processor.py:157} INFO - Started process (PID=5132) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:40:50.859+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:40:50.860+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:40:50.859+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:40:50.874+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:40:50.894+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:40:50.894+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:40:50.914+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:40:50.914+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:40:50.927+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.075 seconds
+[2025-09-20T11:41:21.498+0200] {processor.py:157} INFO - Started process (PID=5177) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:41:21.502+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:41:21.503+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:41:21.503+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:41:21.522+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:41:21.555+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:41:21.555+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:41:21.579+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:41:21.579+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:41:21.603+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.111 seconds
+[2025-09-20T11:41:52.170+0200] {processor.py:157} INFO - Started process (PID=5227) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:41:52.172+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:41:52.174+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:41:52.174+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:41:52.203+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:41:52.232+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:41:52.232+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:41:52.261+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:41:52.261+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:41:52.279+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.113 seconds
+[2025-09-20T11:42:22.813+0200] {processor.py:157} INFO - Started process (PID=5272) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:42:22.814+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:42:22.815+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:42:22.815+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:42:22.830+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:42:22.862+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:42:22.862+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:42:22.892+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:42:22.891+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:42:22.914+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.105 seconds
+[2025-09-20T11:42:53.515+0200] {processor.py:157} INFO - Started process (PID=5317) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:42:53.519+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:42:53.520+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:42:53.520+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:42:53.535+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:42:53.562+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:42:53.562+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:42:53.588+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:42:53.588+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:42:53.606+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.095 seconds
+[2025-09-20T11:43:24.244+0200] {processor.py:157} INFO - Started process (PID=5362) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:43:24.245+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:43:24.247+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:43:24.247+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:43:24.257+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:43:24.287+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:43:24.287+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:43:24.314+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:43:24.314+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:43:24.333+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.093 seconds
+[2025-09-20T11:43:55.042+0200] {processor.py:157} INFO - Started process (PID=5412) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:43:55.047+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:43:55.050+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:43:55.050+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:43:55.071+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:43:55.115+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:43:55.115+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:43:55.144+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:43:55.144+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:43:55.165+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.135 seconds
+[2025-09-20T11:44:25.734+0200] {processor.py:157} INFO - Started process (PID=5457) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:44:25.739+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:44:25.741+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:44:25.740+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:44:25.754+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:44:25.785+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:44:25.785+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:44:25.810+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:44:25.809+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:44:25.829+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.098 seconds
+[2025-09-20T11:44:56.332+0200] {processor.py:157} INFO - Started process (PID=5502) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:44:56.336+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:44:56.338+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:44:56.337+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:44:56.359+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:44:56.392+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:44:56.392+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:44:56.426+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:44:56.425+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:44:56.443+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.113 seconds
+[2025-09-20T11:45:27.059+0200] {processor.py:157} INFO - Started process (PID=5547) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:45:27.060+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:45:27.064+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:45:27.063+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:45:27.088+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:45:27.116+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:45:27.116+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:45:27.140+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:45:27.140+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:45:27.155+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.099 seconds
+[2025-09-20T11:45:57.943+0200] {processor.py:157} INFO - Started process (PID=5597) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:45:57.945+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:45:57.946+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:45:57.946+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:45:57.964+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:45:57.988+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:45:57.988+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:45:58.014+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:45:58.014+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:45:58.031+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.093 seconds
+[2025-09-20T11:46:28.528+0200] {processor.py:157} INFO - Started process (PID=5642) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:46:28.532+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:46:28.533+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:46:28.533+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:46:28.548+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:46:28.569+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:46:28.569+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:46:28.589+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:46:28.589+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:46:28.604+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.078 seconds
+[2025-09-20T11:46:59.236+0200] {processor.py:157} INFO - Started process (PID=5687) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:46:59.241+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:46:59.243+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:46:59.242+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:46:59.256+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:46:59.279+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:46:59.279+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:46:59.304+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:46:59.304+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:46:59.320+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.087 seconds
+[2025-09-20T11:47:29.890+0200] {processor.py:157} INFO - Started process (PID=5732) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:47:29.893+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:47:29.895+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:47:29.894+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:47:29.908+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:47:29.930+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:47:29.930+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:47:29.960+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:47:29.960+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:47:29.975+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.088 seconds
+[2025-09-20T11:48:00.484+0200] {processor.py:157} INFO - Started process (PID=5777) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:48:00.488+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:48:00.491+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:48:00.490+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:48:00.506+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:48:00.526+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:48:00.526+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:48:00.548+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:48:00.548+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:48:00.562+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.081 seconds
+[2025-09-20T11:48:31.213+0200] {processor.py:157} INFO - Started process (PID=5824) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:48:31.215+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:48:31.217+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:48:31.217+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:48:31.234+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:48:31.258+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:48:31.258+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:48:31.283+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:48:31.283+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:48:31.297+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.088 seconds
+[2025-09-20T11:49:01.968+0200] {processor.py:157} INFO - Started process (PID=5869) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:49:01.969+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:49:01.971+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:49:01.971+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:49:01.997+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:49:02.027+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:49:02.027+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:49:02.064+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:49:02.064+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:49:02.086+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.123 seconds
+[2025-09-20T11:49:32.767+0200] {processor.py:157} INFO - Started process (PID=5914) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:49:32.769+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:49:32.771+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:49:32.770+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:49:32.786+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:49:32.812+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:49:32.812+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:49:32.838+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:49:32.838+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:49:32.855+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.091 seconds
+[2025-09-20T11:50:03.513+0200] {processor.py:157} INFO - Started process (PID=5959) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:50:03.514+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:50:03.514+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:50:03.514+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:50:03.538+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:50:03.569+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:50:03.569+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:50:03.598+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:50:03.598+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:50:03.615+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.107 seconds
+[2025-09-20T11:50:34.202+0200] {processor.py:157} INFO - Started process (PID=6004) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:50:34.206+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:50:34.207+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:50:34.207+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:50:34.221+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:50:34.257+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:50:34.256+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:50:34.285+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:50:34.285+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:50:34.301+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.103 seconds
+[2025-09-20T11:51:04.957+0200] {processor.py:157} INFO - Started process (PID=6049) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:51:04.958+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:51:04.959+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:51:04.958+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:51:04.972+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:51:05.001+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:51:05.001+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:51:05.035+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:51:05.034+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:51:05.054+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.101 seconds
+[2025-09-20T11:51:35.705+0200] {processor.py:157} INFO - Started process (PID=6094) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:51:35.707+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:51:35.711+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:51:35.710+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:51:35.732+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:51:35.777+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:51:35.777+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:51:35.814+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:51:35.814+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:51:35.833+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.133 seconds
+[2025-09-20T11:52:06.515+0200] {processor.py:157} INFO - Started process (PID=6139) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:52:06.517+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:52:06.517+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:52:06.517+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:52:06.530+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:52:06.557+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:52:06.557+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:52:06.582+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:52:06.582+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:52:06.596+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.085 seconds
+[2025-09-20T11:52:37.308+0200] {processor.py:157} INFO - Started process (PID=6194) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:52:37.310+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:52:37.312+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:52:37.311+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:52:37.339+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:52:37.375+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:52:37.375+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:52:37.402+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:52:37.402+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:52:37.418+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.117 seconds
+[2025-09-20T11:53:08.083+0200] {processor.py:157} INFO - Started process (PID=6249) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:53:08.085+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:53:08.086+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:53:08.085+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:53:08.102+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:53:08.129+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:53:08.128+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:53:08.152+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:53:08.152+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:53:08.169+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.090 seconds
+[2025-09-20T11:53:38.818+0200] {processor.py:157} INFO - Started process (PID=6304) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:53:38.820+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:53:38.822+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:53:38.822+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:53:38.838+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:53:38.859+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:53:38.859+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:53:38.881+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:53:38.880+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:53:38.896+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.081 seconds
+[2025-09-20T11:54:09.638+0200] {processor.py:157} INFO - Started process (PID=6354) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:54:09.640+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:54:09.641+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:54:09.641+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:54:09.660+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:54:09.697+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:54:09.696+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:54:09.725+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:54:09.725+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:54:09.741+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.108 seconds
+[2025-09-20T11:54:40.372+0200] {processor.py:157} INFO - Started process (PID=6399) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:54:40.372+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:54:40.374+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:54:40.373+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:54:40.390+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:54:40.413+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:54:40.413+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:54:40.441+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:54:40.441+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:54:40.458+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.090 seconds
+[2025-09-20T11:55:11.048+0200] {processor.py:157} INFO - Started process (PID=6444) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:55:11.050+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:55:11.050+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:55:11.050+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:55:11.069+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:55:11.102+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:55:11.101+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:55:11.125+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:55:11.124+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:55:11.143+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.099 seconds
+[2025-09-20T11:55:41.811+0200] {processor.py:157} INFO - Started process (PID=6489) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:55:41.816+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:55:41.820+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:55:41.820+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:55:41.834+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:55:41.865+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:55:41.865+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:55:41.889+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:55:41.888+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:55:41.909+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.103 seconds
+[2025-09-20T11:56:12.522+0200] {processor.py:157} INFO - Started process (PID=6534) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:56:12.525+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:56:12.528+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:56:12.528+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:56:12.540+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:56:12.559+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:56:12.559+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:56:12.584+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:56:12.584+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:56:12.598+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.079 seconds
+[2025-09-20T11:56:43.175+0200] {processor.py:157} INFO - Started process (PID=6579) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:56:43.176+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:56:43.177+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:56:43.177+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:56:43.190+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:56:43.213+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:56:43.213+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:56:43.237+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:56:43.237+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:56:43.252+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.081 seconds
+[2025-09-20T11:57:13.899+0200] {processor.py:157} INFO - Started process (PID=6624) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:57:13.901+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:57:13.902+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:57:13.902+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:57:13.918+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:57:13.942+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:57:13.941+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:57:13.964+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:57:13.964+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:57:13.978+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.083 seconds
+[2025-09-20T11:57:44.551+0200] {processor.py:157} INFO - Started process (PID=6669) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:57:44.552+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:57:44.554+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:57:44.553+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:57:44.569+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:57:44.597+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:57:44.597+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:57:44.629+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:57:44.629+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:57:44.647+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.099 seconds
+[2025-09-20T11:58:15.219+0200] {processor.py:157} INFO - Started process (PID=6722) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:58:15.222+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:58:15.224+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:58:15.223+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:58:15.238+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:58:15.260+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:58:15.260+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:58:15.284+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:58:15.284+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:58:15.299+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.084 seconds
+[2025-09-20T11:58:46.004+0200] {processor.py:157} INFO - Started process (PID=6798) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:58:46.008+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:58:46.009+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:58:46.009+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:58:46.024+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:58:46.046+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:58:46.046+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:58:46.075+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:58:46.075+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:58:46.094+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.093 seconds
+[2025-09-20T11:59:16.735+0200] {processor.py:157} INFO - Started process (PID=6871) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:59:16.741+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:59:16.743+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:59:16.742+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:59:16.763+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:59:16.793+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:59:16.792+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:59:16.816+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:59:16.816+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:59:16.834+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.103 seconds
+[2025-09-20T11:59:47.472+0200] {processor.py:157} INFO - Started process (PID=6916) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T11:59:47.473+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T11:59:47.473+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:59:47.473+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T11:59:47.489+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T11:59:47.525+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:59:47.524+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:59:47.555+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:59:47.555+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:59:47.571+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.103 seconds
+[2025-09-20T12:00:18.193+0200] {processor.py:157} INFO - Started process (PID=6961) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T12:00:18.196+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T12:00:18.197+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:00:18.197+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T12:00:18.214+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T12:00:18.241+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:00:18.241+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:00:18.267+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:00:18.267+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:00:18.285+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.095 seconds
+[2025-09-20T12:00:48.902+0200] {processor.py:157} INFO - Started process (PID=7006) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T12:00:48.903+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T12:00:48.904+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:00:48.903+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T12:00:48.918+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T12:00:48.944+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:00:48.944+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:00:48.969+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:00:48.969+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:00:48.985+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.087 seconds
+[2025-09-20T12:01:19.554+0200] {processor.py:157} INFO - Started process (PID=7051) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T12:01:19.554+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T12:01:19.556+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:01:19.556+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T12:01:19.568+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T12:01:19.592+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:01:19.592+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:01:19.619+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:01:19.619+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:01:19.638+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.087 seconds
+[2025-09-20T12:01:50.191+0200] {processor.py:157} INFO - Started process (PID=7096) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T12:01:50.192+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T12:01:50.193+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:01:50.193+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T12:01:50.205+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T12:01:50.229+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:01:50.229+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:01:50.262+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:01:50.261+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:01:50.278+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.090 seconds
+[2025-09-20T12:02:20.993+0200] {processor.py:157} INFO - Started process (PID=7141) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T12:02:20.997+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T12:02:21.000+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:02:20.999+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T12:02:21.022+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T12:02:21.053+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:02:21.053+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:02:21.082+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:02:21.082+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:02:21.106+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.119 seconds
+[2025-09-20T12:02:51.813+0200] {processor.py:157} INFO - Started process (PID=7214) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T12:02:51.814+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T12:02:51.815+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:02:51.815+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T12:02:51.835+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T12:02:51.867+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:02:51.867+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:02:51.893+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:02:51.893+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:02:51.910+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.102 seconds
+[2025-09-20T12:03:22.563+0200] {processor.py:157} INFO - Started process (PID=7259) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T12:03:22.566+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T12:03:22.567+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:03:22.567+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T12:03:22.586+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T12:03:22.617+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:03:22.617+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:03:22.641+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:03:22.640+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:03:22.656+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.095 seconds
+[2025-09-20T12:03:53.165+0200] {processor.py:157} INFO - Started process (PID=7312) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T12:03:53.167+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T12:03:53.168+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:03:53.168+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T12:03:53.185+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T12:03:53.206+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:03:53.206+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:03:53.230+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:03:53.230+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:03:53.246+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.084 seconds
+[2025-09-20T12:04:23.810+0200] {processor.py:157} INFO - Started process (PID=7365) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T12:04:23.811+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T12:04:23.812+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:04:23.812+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T12:04:23.828+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T12:04:23.852+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:04:23.852+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:04:23.874+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:04:23.874+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:04:23.891+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.083 seconds
+[2025-09-20T12:04:54.572+0200] {processor.py:157} INFO - Started process (PID=7410) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T12:04:54.575+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T12:04:54.576+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:04:54.575+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T12:04:54.610+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T12:04:54.656+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:04:54.656+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:04:54.698+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:04:54.698+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:04:54.718+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.153 seconds
+[2025-09-20T12:05:25.423+0200] {processor.py:157} INFO - Started process (PID=7455) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T12:05:25.425+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T12:05:25.427+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:05:25.426+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T12:05:25.448+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T12:05:25.485+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:05:25.485+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:05:25.514+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:05:25.514+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:05:25.532+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.112 seconds
+[2025-09-20T12:05:56.312+0200] {processor.py:157} INFO - Started process (PID=7507) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T12:05:56.313+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T12:05:56.313+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:05:56.313+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T12:05:56.323+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T12:05:56.345+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:05:56.345+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:05:56.371+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:05:56.371+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:05:56.388+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.078 seconds
+[2025-09-20T12:06:27.076+0200] {processor.py:157} INFO - Started process (PID=7560) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T12:06:27.077+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T12:06:27.078+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:06:27.077+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T12:06:27.086+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T12:06:27.106+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:06:27.106+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:06:27.127+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:06:27.127+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:06:27.140+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.066 seconds
+[2025-09-20T12:06:57.816+0200] {processor.py:157} INFO - Started process (PID=7635) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T12:06:57.817+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T12:06:57.817+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:06:57.817+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T12:06:57.826+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T12:06:57.845+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:06:57.844+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:06:57.865+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:06:57.864+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:06:57.876+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.062 seconds
+[2025-09-20T12:07:28.535+0200] {processor.py:157} INFO - Started process (PID=7680) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T12:07:28.536+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T12:07:28.537+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:07:28.536+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T12:07:28.545+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T12:07:28.565+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:07:28.565+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:07:28.585+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:07:28.585+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:07:28.597+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.064 seconds
+[2025-09-20T12:07:59.289+0200] {processor.py:157} INFO - Started process (PID=7725) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T12:07:59.289+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T12:07:59.290+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:07:59.290+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T12:07:59.298+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T12:07:59.318+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:07:59.318+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:07:59.341+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:07:59.340+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:07:59.353+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.067 seconds
+[2025-09-20T12:08:30.016+0200] {processor.py:157} INFO - Started process (PID=7770) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T12:08:30.016+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T12:08:30.017+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:08:30.017+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T12:08:30.026+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T12:08:30.045+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:08:30.045+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:08:30.066+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:08:30.066+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:08:30.078+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.065 seconds
+[2025-09-20T12:09:00.749+0200] {processor.py:157} INFO - Started process (PID=7815) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T12:09:00.750+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T12:09:00.750+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:09:00.750+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T12:09:00.759+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T12:09:00.780+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:09:00.780+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:09:00.801+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:09:00.800+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:09:00.812+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.066 seconds
+[2025-09-20T12:09:31.535+0200] {processor.py:157} INFO - Started process (PID=7860) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T12:09:31.536+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T12:09:31.536+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:09:31.536+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T12:09:31.545+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T12:09:31.565+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:09:31.565+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:09:31.585+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:09:31.585+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:09:31.597+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.065 seconds
+[2025-09-20T12:10:02.291+0200] {processor.py:157} INFO - Started process (PID=7913) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T12:10:02.293+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T12:10:02.297+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:10:02.297+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T12:10:02.317+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T12:10:02.372+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:10:02.372+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:10:02.426+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:10:02.426+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:10:02.455+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.168 seconds
+[2025-09-20T12:10:33.250+0200] {processor.py:157} INFO - Started process (PID=7986) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T12:10:33.251+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T12:10:33.252+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:10:33.252+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T12:10:33.266+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T12:10:33.296+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:10:33.296+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:10:33.319+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:10:33.319+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:10:33.333+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.087 seconds
+[2025-09-20T12:11:03.896+0200] {processor.py:157} INFO - Started process (PID=8031) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T12:11:03.900+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T12:11:03.902+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:11:03.901+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T12:11:03.927+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T12:11:03.955+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:11:03.955+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:11:03.978+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:11:03.978+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:11:03.991+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.099 seconds
+[2025-09-20T12:11:34.631+0200] {processor.py:157} INFO - Started process (PID=8076) to work on /opt/airflow/dags/competitors.py
+[2025-09-20T12:11:34.632+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/competitors.py for tasks to queue
+[2025-09-20T12:11:34.633+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:11:34.632+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/competitors.py
+[2025-09-20T12:11:34.645+0200] {processor.py:836} INFO - DAG(s) dict_keys(['competitors_dag']) retrieved from /opt/airflow/dags/competitors.py
+[2025-09-20T12:11:34.669+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:11:34.669+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:11:34.697+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:11:34.697+0200] {dag.py:3508} INFO - Setting next_dagrun for competitors_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:11:34.712+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/competitors.py took 0.084 seconds

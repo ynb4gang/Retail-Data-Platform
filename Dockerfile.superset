@@ -1,0 +1,14 @@
+FROM apache/superset:latest
+
+USER root
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    libpq-dev \
+    gcc \
+ && pip install --no-cache-dir psycopg2-binary \
+ && apt-get remove -y build-essential gcc \
+ && apt-get autoremove -y \
+ && rm -rf /var/lib/apt/lists/*
+
+USER superset

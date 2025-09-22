@@ -1,0 +1,102 @@
+[2025-09-20T10:30:17.085+0200] {processor.py:157} INFO - Started process (PID=663) to work on /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:30:17.087+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_fake_sales_pipeline.py for tasks to queue
+[2025-09-20T10:30:17.088+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:30:17.087+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:30:18.167+0200] {processor.py:836} INFO - DAG(s) dict_keys(['etl_fake_sales_pipeline']) retrieved from /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:30:18.575+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:30:18.575+0200] {manager.py:504} INFO - Created Permission View: can delete on DAG:etl_fake_sales_pipeline
+[2025-09-20T10:30:18.587+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:30:18.587+0200] {manager.py:504} INFO - Created Permission View: can read on DAG:etl_fake_sales_pipeline
+[2025-09-20T10:30:18.593+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:30:18.593+0200] {manager.py:504} INFO - Created Permission View: can edit on DAG:etl_fake_sales_pipeline
+[2025-09-20T10:30:18.614+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:30:18.614+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:30:18.628+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:30:18.627+0200] {dag.py:2763} INFO - Creating ORM DAG for etl_fake_sales_pipeline
+[2025-09-20T10:30:18.642+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:30:18.642+0200] {dag.py:3508} INFO - Setting next_dagrun for etl_fake_sales_pipeline to 2025-09-20T08:15:00+00:00, run_after=2025-09-20T08:30:00+00:00
+[2025-09-20T10:30:18.659+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_fake_sales_pipeline.py took 1.579 seconds
+[2025-09-20T10:30:49.530+0200] {processor.py:157} INFO - Started process (PID=703) to work on /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:30:49.532+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_fake_sales_pipeline.py for tasks to queue
+[2025-09-20T10:30:49.533+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:30:49.532+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:30:49.875+0200] {processor.py:836} INFO - DAG(s) dict_keys(['etl_fake_sales_pipeline']) retrieved from /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:30:49.905+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:30:49.904+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:30:49.931+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:30:49.931+0200] {dag.py:3508} INFO - Setting next_dagrun for etl_fake_sales_pipeline to 2025-09-20T08:15:00+00:00, run_after=2025-09-20T08:30:00+00:00
+[2025-09-20T10:30:49.948+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_fake_sales_pipeline.py took 0.423 seconds
+[2025-09-20T10:31:20.901+0200] {processor.py:157} INFO - Started process (PID=743) to work on /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:31:20.902+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_fake_sales_pipeline.py for tasks to queue
+[2025-09-20T10:31:20.903+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:31:20.902+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:31:21.231+0200] {processor.py:836} INFO - DAG(s) dict_keys(['etl_fake_sales_pipeline']) retrieved from /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:31:21.256+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:31:21.256+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:31:21.280+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:31:21.280+0200] {dag.py:3508} INFO - Setting next_dagrun for etl_fake_sales_pipeline to 2025-09-20T08:15:00+00:00, run_after=2025-09-20T08:30:00+00:00
+[2025-09-20T10:31:21.293+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_fake_sales_pipeline.py took 0.397 seconds
+[2025-09-20T10:31:51.701+0200] {processor.py:157} INFO - Started process (PID=783) to work on /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:31:51.702+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_fake_sales_pipeline.py for tasks to queue
+[2025-09-20T10:31:51.704+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:31:51.704+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:31:52.034+0200] {processor.py:836} INFO - DAG(s) dict_keys(['etl_fake_sales_pipeline']) retrieved from /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:31:52.062+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:31:52.061+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:31:52.089+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:31:52.089+0200] {dag.py:3508} INFO - Setting next_dagrun for etl_fake_sales_pipeline to 2025-09-20T08:15:00+00:00, run_after=2025-09-20T08:30:00+00:00
+[2025-09-20T10:31:52.291+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_fake_sales_pipeline.py took 0.596 seconds
+[2025-09-20T10:32:23.029+0200] {processor.py:157} INFO - Started process (PID=823) to work on /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:32:23.030+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_fake_sales_pipeline.py for tasks to queue
+[2025-09-20T10:32:23.031+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:32:23.030+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:32:23.297+0200] {processor.py:836} INFO - DAG(s) dict_keys(['etl_fake_sales_pipeline']) retrieved from /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:32:23.324+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:32:23.324+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:32:23.346+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:32:23.346+0200] {dag.py:3508} INFO - Setting next_dagrun for etl_fake_sales_pipeline to 2025-09-20T08:15:00+00:00, run_after=2025-09-20T08:30:00+00:00
+[2025-09-20T10:32:23.363+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_fake_sales_pipeline.py took 0.338 seconds
+[2025-09-20T10:32:53.736+0200] {processor.py:157} INFO - Started process (PID=863) to work on /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:32:53.736+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_fake_sales_pipeline.py for tasks to queue
+[2025-09-20T10:32:53.737+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:32:53.737+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:32:54.012+0200] {processor.py:836} INFO - DAG(s) dict_keys(['etl_fake_sales_pipeline']) retrieved from /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:32:54.034+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:32:54.034+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:32:54.055+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:32:54.054+0200] {dag.py:3508} INFO - Setting next_dagrun for etl_fake_sales_pipeline to 2025-09-20T08:15:00+00:00, run_after=2025-09-20T08:30:00+00:00
+[2025-09-20T10:32:54.070+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_fake_sales_pipeline.py took 0.337 seconds
+[2025-09-20T10:33:24.415+0200] {processor.py:157} INFO - Started process (PID=903) to work on /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:33:24.417+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_fake_sales_pipeline.py for tasks to queue
+[2025-09-20T10:33:24.417+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:33:24.417+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:33:24.766+0200] {processor.py:836} INFO - DAG(s) dict_keys(['etl_fake_sales_pipeline']) retrieved from /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:33:24.797+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:33:24.796+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:33:24.823+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:33:24.822+0200] {dag.py:3508} INFO - Setting next_dagrun for etl_fake_sales_pipeline to 2025-09-20T08:15:00+00:00, run_after=2025-09-20T08:30:00+00:00
+[2025-09-20T10:33:24.838+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_fake_sales_pipeline.py took 0.431 seconds
+[2025-09-20T10:33:55.808+0200] {processor.py:157} INFO - Started process (PID=943) to work on /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:33:55.810+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_fake_sales_pipeline.py for tasks to queue
+[2025-09-20T10:33:55.810+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:33:55.810+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:33:56.071+0200] {processor.py:836} INFO - DAG(s) dict_keys(['etl_fake_sales_pipeline']) retrieved from /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:33:56.096+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:33:56.095+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:33:56.118+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:33:56.118+0200] {dag.py:3508} INFO - Setting next_dagrun for etl_fake_sales_pipeline to 2025-09-20T08:15:00+00:00, run_after=2025-09-20T08:30:00+00:00
+[2025-09-20T10:33:56.132+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_fake_sales_pipeline.py took 0.329 seconds
+[2025-09-20T10:34:26.487+0200] {processor.py:157} INFO - Started process (PID=983) to work on /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:34:26.488+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_fake_sales_pipeline.py for tasks to queue
+[2025-09-20T10:34:26.489+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:34:26.489+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:34:26.775+0200] {processor.py:836} INFO - DAG(s) dict_keys(['etl_fake_sales_pipeline']) retrieved from /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:34:26.798+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:34:26.797+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:34:26.817+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:34:26.817+0200] {dag.py:3508} INFO - Setting next_dagrun for etl_fake_sales_pipeline to 2025-09-20T08:15:00+00:00, run_after=2025-09-20T08:30:00+00:00
+[2025-09-20T10:34:26.829+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_fake_sales_pipeline.py took 0.346 seconds
+[2025-09-20T10:34:57.166+0200] {processor.py:157} INFO - Started process (PID=1023) to work on /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:34:57.167+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_fake_sales_pipeline.py for tasks to queue
+[2025-09-20T10:34:57.169+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:34:57.168+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:34:57.468+0200] {processor.py:836} INFO - DAG(s) dict_keys(['etl_fake_sales_pipeline']) retrieved from /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:34:57.504+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:34:57.503+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:34:57.533+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:34:57.533+0200] {dag.py:3508} INFO - Setting next_dagrun for etl_fake_sales_pipeline to 2025-09-20T08:15:00+00:00, run_after=2025-09-20T08:30:00+00:00
+[2025-09-20T10:34:57.687+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_fake_sales_pipeline.py took 0.527 seconds
+[2025-09-20T10:35:28.088+0200] {processor.py:157} INFO - Started process (PID=1063) to work on /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:35:28.090+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_fake_sales_pipeline.py for tasks to queue
+[2025-09-20T10:35:28.091+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:35:28.091+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:35:28.433+0200] {processor.py:836} INFO - DAG(s) dict_keys(['etl_fake_sales_pipeline']) retrieved from /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:35:28.457+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:35:28.456+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:35:28.478+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:35:28.478+0200] {dag.py:3508} INFO - Setting next_dagrun for etl_fake_sales_pipeline to 2025-09-20T08:15:00+00:00, run_after=2025-09-20T08:30:00+00:00
+[2025-09-20T10:35:28.494+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_fake_sales_pipeline.py took 0.411 seconds
+[2025-09-20T10:35:58.876+0200] {processor.py:157} INFO - Started process (PID=1103) to work on /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:35:58.877+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_fake_sales_pipeline.py for tasks to queue
+[2025-09-20T10:35:58.879+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:35:58.878+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:35:59.207+0200] {processor.py:836} INFO - DAG(s) dict_keys(['etl_fake_sales_pipeline']) retrieved from /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:35:59.235+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:35:59.234+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:35:59.260+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:35:59.260+0200] {dag.py:3508} INFO - Setting next_dagrun for etl_fake_sales_pipeline to 2025-09-20T08:15:00+00:00, run_after=2025-09-20T08:30:00+00:00
+[2025-09-20T10:35:59.278+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_fake_sales_pipeline.py took 0.408 seconds
+[2025-09-20T10:36:30.214+0200] {processor.py:157} INFO - Started process (PID=1143) to work on /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:36:30.215+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_fake_sales_pipeline.py for tasks to queue
+[2025-09-20T10:36:30.216+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:36:30.216+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:36:30.484+0200] {processor.py:836} INFO - DAG(s) dict_keys(['etl_fake_sales_pipeline']) retrieved from /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:36:30.508+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:36:30.507+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:36:30.529+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:36:30.529+0200] {dag.py:3508} INFO - Setting next_dagrun for etl_fake_sales_pipeline to 2025-09-20T08:15:00+00:00, run_after=2025-09-20T08:30:00+00:00
+[2025-09-20T10:36:30.545+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_fake_sales_pipeline.py took 0.336 seconds
+[2025-09-20T10:37:00.963+0200] {processor.py:157} INFO - Started process (PID=1183) to work on /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:37:00.965+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_fake_sales_pipeline.py for tasks to queue
+[2025-09-20T10:37:00.967+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:37:00.966+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:37:01.308+0200] {processor.py:836} INFO - DAG(s) dict_keys(['etl_fake_sales_pipeline']) retrieved from /opt/airflow/dags/etl_fake_sales_pipeline.py
+[2025-09-20T10:37:01.351+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:37:01.350+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:37:01.384+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:37:01.384+0200] {dag.py:3508} INFO - Setting next_dagrun for etl_fake_sales_pipeline to 2025-09-20T08:15:00+00:00, run_after=2025-09-20T08:30:00+00:00
+[2025-09-20T10:37:01.404+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_fake_sales_pipeline.py took 0.449 seconds

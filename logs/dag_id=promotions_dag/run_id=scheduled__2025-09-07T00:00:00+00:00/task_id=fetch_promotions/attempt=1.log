@@ -1,0 +1,26 @@
+[2025-09-20T10:44:22.347+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: promotions_dag.fetch_promotions scheduled__2025-09-07T00:00:00+00:00 [queued]>
+[2025-09-20T10:44:22.355+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: promotions_dag.fetch_promotions scheduled__2025-09-07T00:00:00+00:00 [queued]>
+[2025-09-20T10:44:22.356+0200] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2025-09-20T10:44:22.376+0200] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): fetch_promotions> on 2025-09-07 00:00:00+00:00
+[2025-09-20T10:44:22.383+0200] {standard_task_runner.py:57} INFO - Started process 1487 to run task
+[2025-09-20T10:44:22.388+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'promotions_dag', 'fetch_promotions', 'scheduled__2025-09-07T00:00:00+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/dag_promotions.py', '--cfg-path', '/tmp/tmpqg4lhggx']
+[2025-09-20T10:44:22.390+0200] {standard_task_runner.py:85} INFO - Job 8: Subtask fetch_promotions
+[2025-09-20T10:44:22.451+0200] {task_command.py:410} INFO - Running <TaskInstance: promotions_dag.fetch_promotions scheduled__2025-09-07T00:00:00+00:00 [running]> on host 1102361e702e
+[2025-09-20T10:44:22.531+0200] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='promotions_dag' AIRFLOW_CTX_TASK_ID='fetch_promotions' AIRFLOW_CTX_EXECUTION_DATE='2025-09-07T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-09-07T00:00:00+00:00'
+[2025-09-20T10:44:22.535+0200] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dag_promotions.py", line 8, in fetch_promotions
+    conn = psycopg2.connect("dbname=postgres user=postgres password=postgres host=postgres")
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "postgres" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+[2025-09-20T10:44:22.545+0200] {taskinstance.py:1350} INFO - Marking task as FAILED. dag_id=promotions_dag, task_id=fetch_promotions, execution_date=20250907T000000, start_date=20250920T084422, end_date=20250920T084422
+[2025-09-20T10:44:22.555+0200] {standard_task_runner.py:109} ERROR - Failed to execute job 8 for task fetch_promotions (connection to server at "postgres" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+; 1487)
+[2025-09-20T10:44:22.569+0200] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2025-09-20T10:44:22.586+0200] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

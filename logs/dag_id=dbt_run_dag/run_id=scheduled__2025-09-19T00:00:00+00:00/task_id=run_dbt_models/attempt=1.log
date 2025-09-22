@@ -1,0 +1,34 @@
+[2025-09-20T11:40:46.224+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_run_dag.run_dbt_models scheduled__2025-09-19T00:00:00+00:00 [queued]>
+[2025-09-20T11:40:46.231+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_run_dag.run_dbt_models scheduled__2025-09-19T00:00:00+00:00 [queued]>
+[2025-09-20T11:40:46.231+0200] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2025-09-20T11:40:46.244+0200] {taskinstance.py:1327} INFO - Executing <Task(DockerOperator): run_dbt_models> on 2025-09-19 00:00:00+00:00
+[2025-09-20T11:40:46.247+0200] {standard_task_runner.py:57} INFO - Started process 5128 to run task
+[2025-09-20T11:40:46.250+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'dbt_run_dag', 'run_dbt_models', 'scheduled__2025-09-19T00:00:00+00:00', '--job-id', '42', '--raw', '--subdir', 'DAGS_FOLDER/dbt_dag.py', '--cfg-path', '/tmp/tmp8l67x856']
+[2025-09-20T11:40:46.252+0200] {standard_task_runner.py:85} INFO - Job 42: Subtask run_dbt_models
+[2025-09-20T11:40:46.300+0200] {task_command.py:410} INFO - Running <TaskInstance: dbt_run_dag.run_dbt_models scheduled__2025-09-19T00:00:00+00:00 [running]> on host 1102361e702e
+[2025-09-20T11:40:46.376+0200] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='dbt_run_dag' AIRFLOW_CTX_TASK_ID='run_dbt_models' AIRFLOW_CTX_EXECUTION_DATE='2025-09-19T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-09-19T00:00:00+00:00'
+[2025-09-20T11:40:46.395+0200] {docker.py:462} INFO - Pulling docker image ghcr.io/dbt-labs/dbt-postgres:1.4.0
+[2025-09-20T11:40:47.594+0200] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/api/client.py", line 268, in _raise_for_status
+    response.raise_for_status()
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: http+docker://localhost/v1.51/images/create?tag=1.4.0&fromImage=ghcr.io%2Fdbt-labs%2Fdbt-postgres
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/docker/operators/docker.py", line 464, in execute
+    for output in self.cli.pull(self.image, stream=True, decode=True):
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/api/image.py", line 429, in pull
+    self._raise_for_status(response)
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/api/client.py", line 270, in _raise_for_status
+    raise create_api_error_from_http_exception(e) from e
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/errors.py", line 39, in create_api_error_from_http_exception
+    raise cls(e, response=response, explanation=explanation) from e
+docker.errors.NotFound: 404 Client Error for http+docker://localhost/v1.51/images/create?tag=1.4.0&fromImage=ghcr.io%2Fdbt-labs%2Fdbt-postgres: Not Found ("failed to resolve reference "ghcr.io/dbt-labs/dbt-postgres:1.4.0": ghcr.io/dbt-labs/dbt-postgres:1.4.0: not found")
+[2025-09-20T11:40:47.614+0200] {taskinstance.py:1350} INFO - Marking task as FAILED. dag_id=dbt_run_dag, task_id=run_dbt_models, execution_date=20250919T000000, start_date=20250920T094046, end_date=20250920T094047
+[2025-09-20T11:40:47.626+0200] {standard_task_runner.py:109} ERROR - Failed to execute job 42 for task run_dbt_models (404 Client Error for http+docker://localhost/v1.51/images/create?tag=1.4.0&fromImage=ghcr.io%2Fdbt-labs%2Fdbt-postgres: Not Found ("failed to resolve reference "ghcr.io/dbt-labs/dbt-postgres:1.4.0": ghcr.io/dbt-labs/dbt-postgres:1.4.0: not found"); 5128)
+[2025-09-20T11:40:47.668+0200] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2025-09-20T11:40:47.688+0200] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

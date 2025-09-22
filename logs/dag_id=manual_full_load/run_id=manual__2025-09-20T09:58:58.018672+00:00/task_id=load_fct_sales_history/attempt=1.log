@@ -1,0 +1,38 @@
+[2025-09-20T11:59:04.115+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: manual_full_load.load_fct_sales_history manual__2025-09-20T09:58:58.018672+00:00 [queued]>
+[2025-09-20T11:59:04.124+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: manual_full_load.load_fct_sales_history manual__2025-09-20T09:58:58.018672+00:00 [queued]>
+[2025-09-20T11:59:04.125+0200] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2025-09-20T11:59:04.136+0200] {taskinstance.py:1327} INFO - Executing <Task(PostgresOperator): load_fct_sales_history> on 2025-09-20 09:58:58.018672+00:00
+[2025-09-20T11:59:04.139+0200] {standard_task_runner.py:57} INFO - Started process 6853 to run task
+[2025-09-20T11:59:04.142+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'manual_full_load', 'load_fct_sales_history', 'manual__2025-09-20T09:58:58.018672+00:00', '--job-id', '82', '--raw', '--subdir', 'DAGS_FOLDER/manual_full_load.py', '--cfg-path', '/tmp/tmpnuquhb17']
+[2025-09-20T11:59:04.144+0200] {standard_task_runner.py:85} INFO - Job 82: Subtask load_fct_sales_history
+[2025-09-20T11:59:04.190+0200] {task_command.py:410} INFO - Running <TaskInstance: manual_full_load.load_fct_sales_history manual__2025-09-20T09:58:58.018672+00:00 [running]> on host 1102361e702e
+[2025-09-20T11:59:04.269+0200] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='manual_full_load' AIRFLOW_CTX_TASK_ID='load_fct_sales_history' AIRFLOW_CTX_EXECUTION_DATE='2025-09-20T09:58:58.018672+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-09-20T09:58:58.018672+00:00'
+[2025-09-20T11:59:04.270+0200] {sql.py:265} INFO - Executing: 
+        INSERT INTO dwh.fct_sales_history (date_id, store_id, product_id, qty, revenue, load_timestamp)
+        SELECT sale_date, store_id, product_id, qty, revenue, now()
+        FROM staging.sales_stg;
+        
+[2025-09-20T11:59:04.283+0200] {base.py:73} INFO - Using connection ID 'postgres_retail' for task execution.
+[2025-09-20T11:59:04.332+0200] {base.py:73} INFO - Using connection ID 'postgres_retail' for task execution.
+[2025-09-20T11:59:04.337+0200] {sql.py:375} INFO - Running statement: 
+        INSERT INTO dwh.fct_sales_history (date_id, store_id, product_id, qty, revenue, load_timestamp)
+        SELECT sale_date, store_id, product_id, qty, revenue, now()
+        FROM staging.sales_stg;
+        , parameters: None
+[2025-09-20T11:59:04.342+0200] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/operators/sql.py", line 277, in execute
+    **extra_kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/hooks/sql.py", line 349, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/hooks/sql.py", line 380, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.ForeignKeyViolation: insert or update on table "fct_sales_history" violates foreign key constraint "fct_sales_history_product_id_fkey"
+DETAIL:  Key (product_id)=(41) is not present in table "dim_product".
+
+[2025-09-20T11:59:04.354+0200] {taskinstance.py:1350} INFO - Marking task as UP_FOR_RETRY. dag_id=manual_full_load, task_id=load_fct_sales_history, execution_date=20250920T095858, start_date=20250920T095904, end_date=20250920T095904
+[2025-09-20T11:59:04.364+0200] {standard_task_runner.py:109} ERROR - Failed to execute job 82 for task load_fct_sales_history (insert or update on table "fct_sales_history" violates foreign key constraint "fct_sales_history_product_id_fkey"
+DETAIL:  Key (product_id)=(41) is not present in table "dim_product".
+; 6853)
+[2025-09-20T11:59:04.403+0200] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2025-09-20T11:59:04.455+0200] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

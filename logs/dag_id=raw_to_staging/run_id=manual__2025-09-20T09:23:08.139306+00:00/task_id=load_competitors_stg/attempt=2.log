@@ -1,0 +1,33 @@
+[2025-09-20T11:28:11.709+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: raw_to_staging.load_competitors_stg manual__2025-09-20T09:23:08.139306+00:00 [queued]>
+[2025-09-20T11:28:11.717+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: raw_to_staging.load_competitors_stg manual__2025-09-20T09:23:08.139306+00:00 [queued]>
+[2025-09-20T11:28:11.718+0200] {taskinstance.py:1308} INFO - Starting attempt 2 of 2
+[2025-09-20T11:28:11.734+0200] {taskinstance.py:1327} INFO - Executing <Task(PostgresOperator): load_competitors_stg> on 2025-09-20 09:23:08.139306+00:00
+[2025-09-20T11:28:11.738+0200] {standard_task_runner.py:57} INFO - Started process 4082 to run task
+[2025-09-20T11:28:11.741+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'raw_to_staging', 'load_competitors_stg', 'manual__2025-09-20T09:23:08.139306+00:00', '--job-id', '38', '--raw', '--subdir', 'DAGS_FOLDER/dag_raw_to_staging.py', '--cfg-path', '/tmp/tmpzpo5xebf']
+[2025-09-20T11:28:11.745+0200] {standard_task_runner.py:85} INFO - Job 38: Subtask load_competitors_stg
+[2025-09-20T11:28:11.809+0200] {task_command.py:410} INFO - Running <TaskInstance: raw_to_staging.load_competitors_stg manual__2025-09-20T09:23:08.139306+00:00 [running]> on host 1102361e702e
+[2025-09-20T11:28:11.901+0200] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='raw_to_staging' AIRFLOW_CTX_TASK_ID='load_competitors_stg' AIRFLOW_CTX_EXECUTION_DATE='2025-09-20T09:23:08.139306+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-09-20T09:23:08.139306+00:00'
+[2025-09-20T11:28:11.901+0200] {sql.py:265} INFO - Executing: 
+            INSERT INTO staging.competitors_stg (check_date, competitor, product_id, price)
+            SELECT date::date, competitor, product_id, price
+            FROM raw.competitors_api;
+        
+[2025-09-20T11:28:11.917+0200] {base.py:73} INFO - Using connection ID 'postgres_default' for task execution.
+[2025-09-20T11:28:11.989+0200] {base.py:73} INFO - Using connection ID 'postgres_default' for task execution.
+[2025-09-20T11:28:11.996+0200] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/operators/sql.py", line 277, in execute
+    **extra_kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/hooks/sql.py", line 342, in run
+    with closing(self.get_conn()) as conn:
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/postgres/hooks/postgres.py", line 145, in get_conn
+    self.conn = psycopg2.connect(**conn_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "postgres" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+[2025-09-20T11:28:12.007+0200] {taskinstance.py:1350} INFO - Marking task as FAILED. dag_id=raw_to_staging, task_id=load_competitors_stg, execution_date=20250920T092308, start_date=20250920T092811, end_date=20250920T092812
+[2025-09-20T11:28:12.019+0200] {standard_task_runner.py:109} ERROR - Failed to execute job 38 for task load_competitors_stg (connection to server at "postgres" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+; 4082)
+[2025-09-20T11:28:12.044+0200] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2025-09-20T11:28:12.071+0200] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

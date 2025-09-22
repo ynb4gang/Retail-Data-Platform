@@ -1,0 +1,25 @@
+[2025-09-20T12:06:51.695+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: manual_full_load.load_sales_staging manual__2025-09-20T10:06:48.685593+00:00 [queued]>
+[2025-09-20T12:06:51.705+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: manual_full_load.load_sales_staging manual__2025-09-20T10:06:48.685593+00:00 [queued]>
+[2025-09-20T12:06:51.705+0200] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2025-09-20T12:06:51.720+0200] {taskinstance.py:1327} INFO - Executing <Task(PostgresOperator): load_sales_staging> on 2025-09-20 10:06:48.685593+00:00
+[2025-09-20T12:06:51.723+0200] {standard_task_runner.py:57} INFO - Started process 7605 to run task
+[2025-09-20T12:06:51.727+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'manual_full_load', 'load_sales_staging', 'manual__2025-09-20T10:06:48.685593+00:00', '--job-id', '115', '--raw', '--subdir', 'DAGS_FOLDER/manual_full_load.py', '--cfg-path', '/tmp/tmpbn5hflw7']
+[2025-09-20T12:06:51.729+0200] {standard_task_runner.py:85} INFO - Job 115: Subtask load_sales_staging
+[2025-09-20T12:06:51.795+0200] {task_command.py:410} INFO - Running <TaskInstance: manual_full_load.load_sales_staging manual__2025-09-20T10:06:48.685593+00:00 [running]> on host 1102361e702e
+[2025-09-20T12:06:51.896+0200] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='manual_full_load' AIRFLOW_CTX_TASK_ID='load_sales_staging' AIRFLOW_CTX_EXECUTION_DATE='2025-09-20T10:06:48.685593+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-09-20T10:06:48.685593+00:00'
+[2025-09-20T12:06:51.898+0200] {sql.py:265} INFO - Executing: 
+        INSERT INTO staging.sales_stg (sale_date, store_id, product_id, qty, revenue)
+        SELECT date, store_id, product_id, qty, revenue
+        FROM raw.sales_generated;
+        
+[2025-09-20T12:06:51.920+0200] {base.py:73} INFO - Using connection ID 'postgres_retail' for task execution.
+[2025-09-20T12:06:51.978+0200] {base.py:73} INFO - Using connection ID 'postgres_retail' for task execution.
+[2025-09-20T12:06:51.984+0200] {sql.py:375} INFO - Running statement: 
+        INSERT INTO staging.sales_stg (sale_date, store_id, product_id, qty, revenue)
+        SELECT date, store_id, product_id, qty, revenue
+        FROM raw.sales_generated;
+        , parameters: None
+[2025-09-20T12:06:51.986+0200] {sql.py:384} INFO - Rows affected: 250
+[2025-09-20T12:06:51.999+0200] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=manual_full_load, task_id=load_sales_staging, execution_date=20250920T100648, start_date=20250920T100651, end_date=20250920T100651
+[2025-09-20T12:06:52.029+0200] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-09-20T12:06:52.098+0200] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

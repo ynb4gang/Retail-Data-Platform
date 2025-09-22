@@ -1,0 +1,34 @@
+[2025-09-20T11:48:25.601+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: manual_full_load.truncate_staging manual__2025-09-20T09:48:23.778100+00:00 [queued]>
+[2025-09-20T11:48:25.608+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: manual_full_load.truncate_staging manual__2025-09-20T09:48:23.778100+00:00 [queued]>
+[2025-09-20T11:48:25.608+0200] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2025-09-20T11:48:25.618+0200] {taskinstance.py:1327} INFO - Executing <Task(PostgresOperator): truncate_staging> on 2025-09-20 09:48:23.778100+00:00
+[2025-09-20T11:48:25.622+0200] {standard_task_runner.py:57} INFO - Started process 5820 to run task
+[2025-09-20T11:48:25.628+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'manual_full_load', 'truncate_staging', 'manual__2025-09-20T09:48:23.778100+00:00', '--job-id', '43', '--raw', '--subdir', 'DAGS_FOLDER/manual_full_load.py', '--cfg-path', '/tmp/tmpbiavh9e_']
+[2025-09-20T11:48:25.630+0200] {standard_task_runner.py:85} INFO - Job 43: Subtask truncate_staging
+[2025-09-20T11:48:25.681+0200] {task_command.py:410} INFO - Running <TaskInstance: manual_full_load.truncate_staging manual__2025-09-20T09:48:23.778100+00:00 [running]> on host 1102361e702e
+[2025-09-20T11:48:25.772+0200] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='manual_full_load' AIRFLOW_CTX_TASK_ID='truncate_staging' AIRFLOW_CTX_EXECUTION_DATE='2025-09-20T09:48:23.778100+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-09-20T09:48:23.778100+00:00'
+[2025-09-20T11:48:25.773+0200] {sql.py:265} INFO - Executing: 
+        TRUNCATE TABLE staging.sales_stg;
+        TRUNCATE TABLE staging.competitors_stg;
+        TRUNCATE TABLE staging.currency_stg;
+        TRUNCATE TABLE staging.promotions_stg;
+        
+[2025-09-20T11:48:25.793+0200] {base.py:73} INFO - Using connection ID 'postgres_default' for task execution.
+[2025-09-20T11:48:25.849+0200] {base.py:73} INFO - Using connection ID 'postgres_default' for task execution.
+[2025-09-20T11:48:25.853+0200] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/operators/sql.py", line 277, in execute
+    **extra_kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/hooks/sql.py", line 342, in run
+    with closing(self.get_conn()) as conn:
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/postgres/hooks/postgres.py", line 145, in get_conn
+    self.conn = psycopg2.connect(**conn_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "postgres" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+[2025-09-20T11:48:25.864+0200] {taskinstance.py:1350} INFO - Marking task as UP_FOR_RETRY. dag_id=manual_full_load, task_id=truncate_staging, execution_date=20250920T094823, start_date=20250920T094825, end_date=20250920T094825
+[2025-09-20T11:48:25.873+0200] {standard_task_runner.py:109} ERROR - Failed to execute job 43 for task truncate_staging (connection to server at "postgres" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+; 5820)
+[2025-09-20T11:48:25.893+0200] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2025-09-20T11:48:25.922+0200] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

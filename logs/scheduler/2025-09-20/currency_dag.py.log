@@ -1,0 +1,777 @@
+[2025-09-20T11:15:21.101+0200] {processor.py:157} INFO - Started process (PID=3101) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:15:21.101+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:15:21.102+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:15:21.102+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:15:21.116+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:15:21.225+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:15:21.225+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:15:21.249+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:15:21.249+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:15:21.269+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.170 seconds
+[2025-09-20T11:15:51.732+0200] {processor.py:157} INFO - Started process (PID=3131) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:15:51.735+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:15:51.737+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:15:51.737+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:15:51.758+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:15:51.782+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:15:51.781+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:15:51.801+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:15:51.801+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:15:51.815+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.086 seconds
+[2025-09-20T11:16:22.199+0200] {processor.py:157} INFO - Started process (PID=3161) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:16:22.199+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:16:22.201+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:16:22.201+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:16:22.215+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:16:22.247+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:16:22.246+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:16:22.274+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:16:22.274+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:16:22.291+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.096 seconds
+[2025-09-20T11:16:52.720+0200] {processor.py:157} INFO - Started process (PID=3191) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:16:52.721+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:16:52.722+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:16:52.722+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:16:52.736+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:16:52.760+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:16:52.760+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:16:52.782+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:16:52.782+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:16:52.796+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.080 seconds
+[2025-09-20T11:17:23.139+0200] {processor.py:157} INFO - Started process (PID=3221) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:17:23.140+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:17:23.141+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:17:23.141+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:17:23.154+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:17:23.181+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:17:23.181+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:17:23.206+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:17:23.206+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:17:23.222+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.089 seconds
+[2025-09-20T11:17:53.680+0200] {processor.py:157} INFO - Started process (PID=3251) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:17:53.684+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:17:53.686+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:17:53.685+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:17:53.697+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:17:53.718+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:17:53.718+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:17:53.739+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:17:53.738+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:17:53.754+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.076 seconds
+[2025-09-20T11:18:24.184+0200] {processor.py:157} INFO - Started process (PID=3281) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:18:24.186+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:18:24.187+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:18:24.186+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:18:24.208+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:18:24.244+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:18:24.243+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:18:24.266+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:18:24.266+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:18:24.283+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.104 seconds
+[2025-09-20T11:18:54.714+0200] {processor.py:157} INFO - Started process (PID=3313) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:18:54.715+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:18:54.717+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:18:54.717+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:18:54.730+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:18:54.757+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:18:54.757+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:18:54.781+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:18:54.781+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:18:54.799+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.091 seconds
+[2025-09-20T11:19:25.272+0200] {processor.py:157} INFO - Started process (PID=3347) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:19:25.273+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:19:25.274+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:19:25.274+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:19:25.289+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:19:25.313+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:19:25.313+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:19:25.333+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:19:25.333+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:19:25.347+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.078 seconds
+[2025-09-20T11:19:55.773+0200] {processor.py:157} INFO - Started process (PID=3377) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:19:55.773+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:19:55.774+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:19:55.774+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:19:55.784+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:19:55.806+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:19:55.806+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:19:55.826+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:19:55.825+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:19:55.838+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.068 seconds
+[2025-09-20T11:20:26.416+0200] {processor.py:157} INFO - Started process (PID=3417) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:20:26.417+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:20:26.419+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:20:26.418+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:20:26.432+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:20:26.461+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:20:26.461+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:20:26.486+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:20:26.486+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:20:26.502+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.089 seconds
+[2025-09-20T11:20:56.987+0200] {processor.py:157} INFO - Started process (PID=3457) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:20:56.988+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:20:56.989+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:20:56.989+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:20:57.003+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:20:57.029+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:20:57.029+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:20:57.052+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:20:57.052+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:20:57.068+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.084 seconds
+[2025-09-20T11:21:27.559+0200] {processor.py:157} INFO - Started process (PID=3497) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:21:27.563+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:21:27.566+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:21:27.566+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:21:27.576+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:21:27.596+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:21:27.596+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:21:27.619+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:21:27.619+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:21:27.634+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.078 seconds
+[2025-09-20T11:21:58.205+0200] {processor.py:157} INFO - Started process (PID=3537) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:21:58.206+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:21:58.211+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:21:58.211+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:21:58.226+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:21:58.250+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:21:58.249+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:21:58.274+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:21:58.273+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:21:58.286+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.084 seconds
+[2025-09-20T11:22:28.842+0200] {processor.py:157} INFO - Started process (PID=3577) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:22:28.843+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:22:28.844+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:22:28.844+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:22:28.865+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:22:28.889+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:22:28.889+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:22:28.914+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:22:28.914+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:22:28.930+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.092 seconds
+[2025-09-20T11:22:59.390+0200] {processor.py:157} INFO - Started process (PID=3617) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:22:59.391+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:22:59.392+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:22:59.392+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:22:59.407+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:22:59.438+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:22:59.438+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:22:59.464+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:22:59.464+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:22:59.479+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.092 seconds
+[2025-09-20T11:23:29.935+0200] {processor.py:157} INFO - Started process (PID=3677) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:23:29.936+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:23:29.936+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:23:29.936+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:23:29.955+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:23:29.986+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:23:29.986+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:23:30.013+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:23:30.013+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:23:30.032+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.100 seconds
+[2025-09-20T11:24:00.574+0200] {processor.py:157} INFO - Started process (PID=3717) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:24:00.575+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:24:00.576+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:24:00.575+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:24:00.592+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:24:00.616+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:24:00.616+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:24:00.636+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:24:00.636+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:24:00.651+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.080 seconds
+[2025-09-20T11:24:31.230+0200] {processor.py:157} INFO - Started process (PID=3757) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:24:31.236+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:24:31.237+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:24:31.237+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:24:31.254+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:24:31.279+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:24:31.279+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:24:31.302+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:24:31.302+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:24:31.317+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.092 seconds
+[2025-09-20T11:25:01.853+0200] {processor.py:157} INFO - Started process (PID=3797) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:25:01.855+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:25:01.856+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:25:01.856+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:25:01.874+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:25:01.897+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:25:01.897+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:25:01.919+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:25:01.919+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:25:01.935+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.086 seconds
+[2025-09-20T11:25:32.550+0200] {processor.py:157} INFO - Started process (PID=3837) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:25:32.551+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:25:32.552+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:25:32.552+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:25:32.564+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:25:32.592+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:25:32.592+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:25:32.616+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:25:32.616+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:25:32.635+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.088 seconds
+[2025-09-20T11:26:03.310+0200] {processor.py:157} INFO - Started process (PID=3877) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:26:03.313+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:26:03.314+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:26:03.314+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:26:03.330+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:26:03.354+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:26:03.354+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:26:03.377+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:26:03.377+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:26:03.399+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.092 seconds
+[2025-09-20T11:26:33.866+0200] {processor.py:157} INFO - Started process (PID=3917) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:26:33.867+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:26:33.867+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:26:33.867+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:26:33.878+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:26:33.902+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:26:33.902+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:26:33.929+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:26:33.929+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:26:33.944+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.080 seconds
+[2025-09-20T11:27:04.360+0200] {processor.py:157} INFO - Started process (PID=3957) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:27:04.363+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:27:04.364+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:27:04.364+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:27:04.379+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:27:04.402+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:27:04.401+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:27:04.424+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:27:04.424+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:27:04.439+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.083 seconds
+[2025-09-20T11:27:34.877+0200] {processor.py:157} INFO - Started process (PID=4004) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:27:34.879+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:27:34.882+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:27:34.881+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:27:34.899+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:27:34.921+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:27:34.921+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:27:34.947+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:27:34.947+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:27:34.964+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.089 seconds
+[2025-09-20T11:28:05.462+0200] {processor.py:157} INFO - Started process (PID=4045) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:28:05.463+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:28:05.464+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:28:05.464+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:28:05.476+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:28:05.499+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:28:05.499+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:28:05.524+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:28:05.524+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:28:05.538+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.080 seconds
+[2025-09-20T11:28:36.038+0200] {processor.py:157} INFO - Started process (PID=4105) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:28:36.039+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:28:36.040+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:28:36.040+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:28:36.058+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:28:36.083+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:28:36.083+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:28:36.111+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:28:36.111+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:28:36.128+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.094 seconds
+[2025-09-20T11:29:06.668+0200] {processor.py:157} INFO - Started process (PID=4150) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:29:06.670+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:29:06.670+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:29:06.670+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:29:06.679+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:29:06.705+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:29:06.705+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:29:06.728+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:29:06.728+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:29:06.743+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.079 seconds
+[2025-09-20T11:29:37.280+0200] {processor.py:157} INFO - Started process (PID=4190) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:29:37.281+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:29:37.284+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:29:37.284+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:29:37.299+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:29:37.334+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:29:37.334+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:29:37.376+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:29:37.376+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:29:37.395+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.121 seconds
+[2025-09-20T11:30:07.904+0200] {processor.py:157} INFO - Started process (PID=4230) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:30:07.906+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:30:07.907+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:30:07.907+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:30:07.919+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:30:07.943+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:30:07.942+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:30:07.968+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:30:07.968+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:30:07.985+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.084 seconds
+[2025-09-20T11:30:38.533+0200] {processor.py:157} INFO - Started process (PID=4270) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:30:38.534+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:30:38.535+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:30:38.535+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:30:38.547+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:30:38.573+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:30:38.573+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:30:38.601+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:30:38.601+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:30:38.615+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.088 seconds
+[2025-09-20T11:31:09.116+0200] {processor.py:157} INFO - Started process (PID=4310) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:31:09.117+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:31:09.117+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:31:09.117+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:31:09.125+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:31:09.147+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:31:09.147+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:31:09.171+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:31:09.170+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:31:09.184+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.072 seconds
+[2025-09-20T11:31:39.646+0200] {processor.py:157} INFO - Started process (PID=4350) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:31:39.646+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:31:39.647+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:31:39.647+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:31:39.656+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:31:39.676+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:31:39.676+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:31:39.699+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:31:39.699+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:31:39.714+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.071 seconds
+[2025-09-20T11:32:10.215+0200] {processor.py:157} INFO - Started process (PID=4390) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:32:10.216+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:32:10.217+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:32:10.217+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:32:10.231+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:32:10.255+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:32:10.255+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:32:10.283+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:32:10.282+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:32:10.305+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.092 seconds
+[2025-09-20T11:32:40.843+0200] {processor.py:157} INFO - Started process (PID=4430) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:32:40.844+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:32:40.844+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:32:40.844+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:32:40.855+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:32:40.884+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:32:40.883+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:32:40.908+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:32:40.908+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:32:40.929+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.090 seconds
+[2025-09-20T11:33:11.451+0200] {processor.py:157} INFO - Started process (PID=4470) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:33:11.451+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:33:11.452+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:33:11.452+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:33:11.467+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:33:11.491+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:33:11.490+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:33:11.514+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:33:11.514+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:33:11.538+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.091 seconds
+[2025-09-20T11:33:42.040+0200] {processor.py:157} INFO - Started process (PID=4510) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:33:42.041+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:33:42.042+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:33:42.041+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:33:42.050+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:33:42.072+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:33:42.072+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:33:42.094+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:33:42.094+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:33:42.111+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.074 seconds
+[2025-09-20T11:34:12.633+0200] {processor.py:157} INFO - Started process (PID=4550) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:34:12.634+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:34:12.636+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:34:12.636+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:34:12.656+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:34:12.687+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:34:12.687+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:34:12.726+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:34:12.726+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:34:12.753+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.124 seconds
+[2025-09-20T11:34:43.322+0200] {processor.py:157} INFO - Started process (PID=4590) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:34:43.323+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:34:43.324+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:34:43.324+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:34:43.337+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:34:43.378+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:34:43.377+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:34:43.420+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:34:43.420+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:34:43.444+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.125 seconds
+[2025-09-20T11:35:13.939+0200] {processor.py:157} INFO - Started process (PID=4630) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:35:13.943+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:35:13.944+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:35:13.944+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:35:13.957+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:35:13.981+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:35:13.981+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:35:14.005+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:35:14.004+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:35:14.021+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.086 seconds
+[2025-09-20T11:35:44.579+0200] {processor.py:157} INFO - Started process (PID=4675) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:35:44.580+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:35:44.580+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:35:44.580+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:35:44.590+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:35:44.616+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:35:44.616+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:35:44.640+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:35:44.640+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:35:44.659+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.083 seconds
+[2025-09-20T11:36:15.152+0200] {processor.py:157} INFO - Started process (PID=4720) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:36:15.153+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:36:15.154+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:36:15.153+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:36:15.168+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:36:15.191+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:36:15.191+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:36:15.214+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:36:15.214+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:36:15.230+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.080 seconds
+[2025-09-20T11:36:45.862+0200] {processor.py:157} INFO - Started process (PID=4765) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:36:45.863+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:36:45.863+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:36:45.863+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:36:45.875+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:36:45.898+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:36:45.898+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:36:45.922+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:36:45.922+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:36:45.937+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.078 seconds
+[2025-09-20T11:37:16.423+0200] {processor.py:157} INFO - Started process (PID=4810) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:37:16.424+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:37:16.425+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:37:16.425+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:37:16.434+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:37:16.454+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:37:16.454+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:37:16.480+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:37:16.480+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:37:16.493+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.072 seconds
+[2025-09-20T11:37:46.984+0200] {processor.py:157} INFO - Started process (PID=4855) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:37:46.986+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:37:46.987+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:37:46.986+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:37:46.995+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:37:47.016+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:37:47.016+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:37:47.039+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:37:47.038+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:37:47.054+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.072 seconds
+[2025-09-20T11:38:17.538+0200] {processor.py:157} INFO - Started process (PID=4900) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:38:17.538+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:38:17.539+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:38:17.539+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:38:17.552+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:38:17.574+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:38:17.573+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:38:17.596+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:38:17.596+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:38:17.611+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.075 seconds
+[2025-09-20T11:38:48.241+0200] {processor.py:157} INFO - Started process (PID=4950) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:38:48.242+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:38:48.242+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:38:48.242+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:38:48.252+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:38:48.276+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:38:48.276+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:38:48.304+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:38:48.303+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:38:48.320+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.084 seconds
+[2025-09-20T11:39:18.859+0200] {processor.py:157} INFO - Started process (PID=4995) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:39:18.860+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:39:18.860+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:39:18.860+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:39:18.869+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:39:18.889+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:39:18.889+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:39:18.911+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:39:18.911+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:39:18.925+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.068 seconds
+[2025-09-20T11:39:49.393+0200] {processor.py:157} INFO - Started process (PID=5040) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:39:49.395+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:39:49.396+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:39:49.396+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:39:49.409+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:39:49.442+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:39:49.441+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:39:49.473+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:39:49.473+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:39:49.490+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.100 seconds
+[2025-09-20T11:40:20.210+0200] {processor.py:157} INFO - Started process (PID=5090) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:40:20.211+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:40:20.212+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:40:20.212+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:40:20.221+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:40:20.244+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:40:20.244+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:40:20.271+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:40:20.271+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:40:20.286+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.081 seconds
+[2025-09-20T11:40:50.935+0200] {processor.py:157} INFO - Started process (PID=5137) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:40:50.936+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:40:50.936+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:40:50.936+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:40:50.948+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:40:50.969+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:40:50.968+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:40:50.990+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:40:50.990+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:40:51.003+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.071 seconds
+[2025-09-20T11:41:21.609+0200] {processor.py:157} INFO - Started process (PID=5182) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:41:21.610+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:41:21.611+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:41:21.611+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:41:21.624+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:41:21.648+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:41:21.648+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:41:21.671+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:41:21.671+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:41:21.684+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.078 seconds
+[2025-09-20T11:41:52.296+0200] {processor.py:157} INFO - Started process (PID=5234) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:41:52.297+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:41:52.297+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:41:52.297+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:41:52.306+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:41:52.327+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:41:52.327+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:41:52.350+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:41:52.350+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:41:52.363+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.070 seconds
+[2025-09-20T11:42:22.932+0200] {processor.py:157} INFO - Started process (PID=5279) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:42:22.933+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:42:22.933+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:42:22.933+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:42:22.942+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:42:22.962+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:42:22.962+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:42:22.984+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:42:22.983+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:42:22.996+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.066 seconds
+[2025-09-20T11:42:53.620+0200] {processor.py:157} INFO - Started process (PID=5324) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:42:53.621+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:42:53.621+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:42:53.621+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:42:53.630+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:42:53.651+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:42:53.651+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:42:53.671+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:42:53.671+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:42:53.683+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.066 seconds
+[2025-09-20T11:43:24.350+0200] {processor.py:157} INFO - Started process (PID=5369) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:43:24.351+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:43:24.352+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:43:24.351+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:43:24.360+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:43:24.381+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:43:24.380+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:43:24.405+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:43:24.405+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:43:24.417+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.069 seconds
+[2025-09-20T11:43:55.185+0200] {processor.py:157} INFO - Started process (PID=5419) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:43:55.187+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:43:55.187+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:43:55.187+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:43:55.196+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:43:55.218+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:43:55.218+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:43:55.243+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:43:55.242+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:43:55.258+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.076 seconds
+[2025-09-20T11:44:25.841+0200] {processor.py:157} INFO - Started process (PID=5462) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:44:25.844+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:44:25.845+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:44:25.845+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:44:25.855+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:44:25.880+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:44:25.880+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:44:25.908+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:44:25.908+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:44:25.928+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.092 seconds
+[2025-09-20T11:44:56.454+0200] {processor.py:157} INFO - Started process (PID=5509) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:44:56.455+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:44:56.456+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:44:56.456+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:44:56.469+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:44:56.499+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:44:56.499+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:44:56.527+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:44:56.527+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:44:56.551+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.100 seconds
+[2025-09-20T11:45:27.163+0200] {processor.py:157} INFO - Started process (PID=5552) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:45:27.164+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:45:27.165+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:45:27.165+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:45:27.175+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:45:27.199+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:45:27.198+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:45:27.223+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:45:27.223+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:45:27.239+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.079 seconds
+[2025-09-20T11:45:58.046+0200] {processor.py:157} INFO - Started process (PID=5604) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:45:58.047+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:45:58.047+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:45:58.047+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:45:58.056+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:45:58.077+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:45:58.077+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:45:58.098+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:45:58.098+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:45:58.109+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.066 seconds
+[2025-09-20T11:46:28.618+0200] {processor.py:157} INFO - Started process (PID=5649) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:46:28.618+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:46:28.619+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:46:28.619+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:46:28.627+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:46:28.649+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:46:28.648+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:46:28.673+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:46:28.673+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:46:28.686+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.072 seconds
+[2025-09-20T11:46:59.333+0200] {processor.py:157} INFO - Started process (PID=5694) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:46:59.334+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:46:59.335+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:46:59.334+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:46:59.343+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:46:59.364+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:46:59.364+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:46:59.385+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:46:59.385+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:46:59.398+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.068 seconds
+[2025-09-20T11:47:29.983+0200] {processor.py:157} INFO - Started process (PID=5737) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:47:29.984+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:47:29.985+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:47:29.985+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:47:29.995+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:47:30.016+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:47:30.016+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:47:30.039+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:47:30.039+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:47:30.052+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.071 seconds
+[2025-09-20T11:48:00.572+0200] {processor.py:157} INFO - Started process (PID=5784) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:48:00.574+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:48:00.575+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:48:00.575+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:48:00.583+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:48:00.604+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:48:00.603+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:48:00.624+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:48:00.624+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:48:00.637+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.068 seconds
+[2025-09-20T11:48:31.313+0200] {processor.py:157} INFO - Started process (PID=5831) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:48:31.314+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:48:31.314+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:48:31.314+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:48:31.323+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:48:31.342+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:48:31.342+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:48:31.362+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:48:31.362+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:48:31.372+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.062 seconds
+[2025-09-20T11:49:02.098+0200] {processor.py:157} INFO - Started process (PID=5874) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:49:02.099+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:49:02.100+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:49:02.100+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:49:02.116+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:49:02.146+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:49:02.146+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:49:02.177+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:49:02.177+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:49:02.194+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.100 seconds
+[2025-09-20T11:49:32.873+0200] {processor.py:157} INFO - Started process (PID=5921) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:49:32.874+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:49:32.875+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:49:32.874+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:49:32.883+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:49:32.904+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:49:32.903+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:49:32.926+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:49:32.926+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:49:32.939+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.069 seconds
+[2025-09-20T11:50:03.628+0200] {processor.py:157} INFO - Started process (PID=5966) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:50:03.629+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:50:03.629+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:50:03.629+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:50:03.638+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:50:03.657+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:50:03.657+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:50:03.678+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:50:03.678+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:50:03.690+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.064 seconds
+[2025-09-20T11:50:34.310+0200] {processor.py:157} INFO - Started process (PID=6009) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:50:34.311+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:50:34.312+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:50:34.311+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:50:34.322+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:50:34.343+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:50:34.343+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:50:34.367+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:50:34.366+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:50:34.380+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.073 seconds
+[2025-09-20T11:51:05.076+0200] {processor.py:157} INFO - Started process (PID=6056) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:51:05.077+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:51:05.077+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:51:05.077+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:51:05.085+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:51:05.105+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:51:05.105+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:51:05.125+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:51:05.125+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:51:05.137+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.064 seconds
+[2025-09-20T11:51:35.857+0200] {processor.py:157} INFO - Started process (PID=6101) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:51:35.858+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:51:35.859+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:51:35.859+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:51:35.869+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:51:35.890+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:51:35.890+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:51:35.916+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:51:35.916+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:51:35.928+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.073 seconds
+[2025-09-20T11:52:06.612+0200] {processor.py:157} INFO - Started process (PID=6146) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:52:06.613+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:52:06.614+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:52:06.613+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:52:06.622+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:52:06.641+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:52:06.641+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:52:06.661+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:52:06.661+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:52:06.673+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.064 seconds
+[2025-09-20T11:52:37.436+0200] {processor.py:157} INFO - Started process (PID=6201) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:52:37.436+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:52:37.437+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:52:37.437+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:52:37.445+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:52:37.465+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:52:37.465+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:52:37.485+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:52:37.485+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:52:37.496+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.063 seconds
+[2025-09-20T11:53:08.184+0200] {processor.py:157} INFO - Started process (PID=6256) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:53:08.185+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:53:08.186+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:53:08.185+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:53:08.193+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:53:08.213+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:53:08.213+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:53:08.234+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:53:08.234+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:53:08.247+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.065 seconds
+[2025-09-20T11:53:38.913+0200] {processor.py:157} INFO - Started process (PID=6311) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:53:38.913+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:53:38.914+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:53:38.914+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:53:38.922+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:53:38.941+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:53:38.941+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:53:38.962+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:53:38.961+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:53:38.973+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.063 seconds
+[2025-09-20T11:54:09.760+0200] {processor.py:157} INFO - Started process (PID=6359) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:54:09.761+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:54:09.763+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:54:09.763+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:54:09.773+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:54:09.804+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:54:09.804+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:54:09.828+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:54:09.828+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:54:09.844+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.088 seconds
+[2025-09-20T11:54:40.474+0200] {processor.py:157} INFO - Started process (PID=6406) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:54:40.475+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:54:40.476+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:54:40.476+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:54:40.485+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:54:40.505+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:54:40.505+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:54:40.527+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:54:40.527+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:54:40.539+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.067 seconds
+[2025-09-20T11:55:11.158+0200] {processor.py:157} INFO - Started process (PID=6451) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:55:11.158+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:55:11.159+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:55:11.159+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:55:11.167+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:55:11.186+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:55:11.186+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:55:11.206+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:55:11.206+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:55:11.218+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.063 seconds
+[2025-09-20T11:55:41.923+0200] {processor.py:157} INFO - Started process (PID=6494) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:55:41.924+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:55:41.925+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:55:41.924+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:55:41.937+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:55:41.961+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:55:41.960+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:55:41.984+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:55:41.984+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:55:41.997+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.077 seconds
+[2025-09-20T11:56:12.612+0200] {processor.py:157} INFO - Started process (PID=6541) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:56:12.613+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:56:12.613+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:56:12.613+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:56:12.621+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:56:12.641+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:56:12.641+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:56:12.661+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:56:12.661+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:56:12.672+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.063 seconds
+[2025-09-20T11:56:43.273+0200] {processor.py:157} INFO - Started process (PID=6586) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:56:43.274+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:56:43.275+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:56:43.275+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:56:43.284+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:56:43.307+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:56:43.306+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:56:43.329+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:56:43.329+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:56:43.341+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.071 seconds
+[2025-09-20T11:57:13.993+0200] {processor.py:157} INFO - Started process (PID=6631) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:57:13.994+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:57:13.994+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:57:13.994+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:57:14.003+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:57:14.021+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:57:14.021+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:57:14.041+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:57:14.041+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:57:14.054+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.063 seconds
+[2025-09-20T11:57:44.664+0200] {processor.py:157} INFO - Started process (PID=6676) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:57:44.665+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:57:44.666+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:57:44.666+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:57:44.675+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:57:44.696+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:57:44.696+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:57:44.719+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:57:44.719+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:57:44.731+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.070 seconds
+[2025-09-20T11:58:15.317+0200] {processor.py:157} INFO - Started process (PID=6729) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:58:15.318+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:58:15.319+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:58:15.319+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:58:15.327+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:58:15.348+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:58:15.347+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:58:15.369+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:58:15.369+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:58:15.381+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.068 seconds
+[2025-09-20T11:58:46.111+0200] {processor.py:157} INFO - Started process (PID=6805) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:58:46.112+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:58:46.114+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:58:46.113+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:58:46.123+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:58:46.144+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:58:46.143+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:58:46.167+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:58:46.167+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:58:46.179+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.070 seconds
+[2025-09-20T11:59:16.847+0200] {processor.py:157} INFO - Started process (PID=6878) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:59:16.848+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:59:16.848+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:59:16.848+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:59:16.857+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:59:16.876+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:59:16.876+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:59:16.896+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:59:16.896+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:59:16.908+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.063 seconds
+[2025-09-20T11:59:47.589+0200] {processor.py:157} INFO - Started process (PID=6923) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:59:47.590+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T11:59:47.591+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:59:47.590+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:59:47.599+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T11:59:47.620+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:59:47.620+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:59:47.641+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:59:47.641+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:59:47.653+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.066 seconds
+[2025-09-20T12:00:18.295+0200] {processor.py:157} INFO - Started process (PID=6968) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:00:18.296+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T12:00:18.297+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:00:18.296+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:00:18.305+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:00:18.326+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:00:18.326+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:00:18.347+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:00:18.347+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:00:18.360+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.067 seconds
+[2025-09-20T12:00:49.001+0200] {processor.py:157} INFO - Started process (PID=7013) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:00:49.002+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T12:00:49.002+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:00:49.002+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:00:49.011+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:00:49.030+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:00:49.030+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:00:49.050+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:00:49.050+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:00:49.061+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.063 seconds
+[2025-09-20T12:01:19.657+0200] {processor.py:157} INFO - Started process (PID=7058) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:01:19.658+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T12:01:19.659+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:01:19.659+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:01:19.667+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:01:19.689+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:01:19.689+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:01:19.710+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:01:19.710+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:01:19.722+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.068 seconds
+[2025-09-20T12:01:50.289+0200] {processor.py:157} INFO - Started process (PID=7103) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:01:50.290+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T12:01:50.291+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:01:50.291+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:01:50.299+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:01:50.321+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:01:50.321+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:01:50.342+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:01:50.342+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:01:50.354+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.067 seconds
+[2025-09-20T12:02:21.119+0200] {processor.py:157} INFO - Started process (PID=7148) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:02:21.122+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T12:02:21.123+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:02:21.123+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:02:21.135+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:02:21.160+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:02:21.159+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:02:21.187+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:02:21.186+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:02:21.202+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.087 seconds
+[2025-09-20T12:02:51.926+0200] {processor.py:157} INFO - Started process (PID=7221) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:02:51.927+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T12:02:51.928+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:02:51.928+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:02:51.937+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:02:51.956+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:02:51.956+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:02:51.976+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:02:51.976+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:02:51.989+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.065 seconds
+[2025-09-20T12:03:22.664+0200] {processor.py:157} INFO - Started process (PID=7265) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:03:22.665+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T12:03:22.666+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:03:22.665+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:03:22.676+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:03:22.699+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:03:22.699+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:03:22.721+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:03:22.721+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:03:22.736+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.074 seconds
+[2025-09-20T12:03:53.256+0200] {processor.py:157} INFO - Started process (PID=7317) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:03:53.256+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T12:03:53.258+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:03:53.257+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:03:53.269+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:03:53.292+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:03:53.292+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:03:53.316+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:03:53.316+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:03:53.331+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.078 seconds
+[2025-09-20T12:04:23.906+0200] {processor.py:157} INFO - Started process (PID=7372) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:04:23.906+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T12:04:23.907+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:04:23.907+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:04:23.916+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:04:23.937+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:04:23.937+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:04:23.958+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:04:23.958+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:04:23.970+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.067 seconds
+[2025-09-20T12:04:54.736+0200] {processor.py:157} INFO - Started process (PID=7417) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:04:54.737+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T12:04:54.737+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:04:54.737+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:04:54.746+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:04:54.766+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:04:54.766+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:04:54.787+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:04:54.787+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:04:54.800+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.067 seconds
+[2025-09-20T12:05:25.545+0200] {processor.py:157} INFO - Started process (PID=7462) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:05:25.545+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T12:05:25.546+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:05:25.546+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:05:25.554+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:05:25.573+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:05:25.573+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:05:25.593+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:05:25.593+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:05:25.605+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.063 seconds
+[2025-09-20T12:05:56.406+0200] {processor.py:157} INFO - Started process (PID=7512) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:05:56.407+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T12:05:56.408+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:05:56.408+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:05:56.420+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:05:56.444+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:05:56.444+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:05:56.468+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:05:56.468+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:05:56.484+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.081 seconds
+[2025-09-20T12:06:27.157+0200] {processor.py:157} INFO - Started process (PID=7565) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:06:27.158+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T12:06:27.159+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:06:27.159+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:06:27.172+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:06:27.195+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:06:27.194+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:06:27.216+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:06:27.216+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:06:27.230+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.076 seconds
+[2025-09-20T12:06:57.893+0200] {processor.py:157} INFO - Started process (PID=7640) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:06:57.893+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T12:06:57.894+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:06:57.894+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:06:57.903+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:06:57.929+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:06:57.929+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:06:57.950+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:06:57.950+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:06:57.966+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.076 seconds
+[2025-09-20T12:07:28.615+0200] {processor.py:157} INFO - Started process (PID=7685) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:07:28.615+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T12:07:28.616+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:07:28.616+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:07:28.625+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:07:28.653+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:07:28.652+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:07:28.675+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:07:28.675+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:07:28.691+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.079 seconds
+[2025-09-20T12:07:59.372+0200] {processor.py:157} INFO - Started process (PID=7730) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:07:59.375+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T12:07:59.376+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:07:59.376+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:07:59.386+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:07:59.410+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:07:59.410+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:07:59.434+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:07:59.434+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:07:59.452+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.084 seconds
+[2025-09-20T12:08:30.095+0200] {processor.py:157} INFO - Started process (PID=7775) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:08:30.096+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T12:08:30.097+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:08:30.097+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:08:30.109+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:08:30.133+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:08:30.133+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:08:30.157+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:08:30.157+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:08:30.174+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.081 seconds
+[2025-09-20T12:09:00.830+0200] {processor.py:157} INFO - Started process (PID=7820) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:09:00.830+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T12:09:00.831+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:09:00.831+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:09:00.844+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:09:00.868+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:09:00.868+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:09:00.890+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:09:00.890+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:09:00.904+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.078 seconds
+[2025-09-20T12:09:31.615+0200] {processor.py:157} INFO - Started process (PID=7865) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:09:31.617+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T12:09:31.618+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:09:31.617+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:09:31.628+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:09:31.649+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:09:31.649+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:09:31.672+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:09:31.672+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:09:31.686+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.075 seconds
+[2025-09-20T12:10:02.485+0200] {processor.py:157} INFO - Started process (PID=7920) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:10:02.487+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T12:10:02.490+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:10:02.488+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:10:02.525+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:10:02.577+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:10:02.577+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:10:02.615+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:10:02.615+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:10:02.630+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.150 seconds
+[2025-09-20T12:10:33.349+0200] {processor.py:157} INFO - Started process (PID=7993) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:10:33.351+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T12:10:33.351+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:10:33.351+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:10:33.360+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:10:33.380+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:10:33.380+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:10:33.402+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:10:33.402+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:10:33.417+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.071 seconds
+[2025-09-20T12:11:03.999+0200] {processor.py:157} INFO - Started process (PID=8037) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:11:04.000+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T12:11:04.002+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:11:04.001+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:11:04.011+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:11:04.030+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:11:04.030+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:11:04.051+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:11:04.051+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:11:04.071+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.074 seconds
+[2025-09-20T12:11:34.726+0200] {processor.py:157} INFO - Started process (PID=8083) to work on /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:11:34.726+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/currency_dag.py for tasks to queue
+[2025-09-20T12:11:34.727+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:11:34.727+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:11:34.735+0200] {processor.py:836} INFO - DAG(s) dict_keys(['currency_dag']) retrieved from /opt/airflow/dags/currency_dag.py
+[2025-09-20T12:11:34.755+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:11:34.755+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:11:34.777+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:11:34.777+0200] {dag.py:3508} INFO - Setting next_dagrun for currency_dag to 2025-09-20T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T12:11:34.790+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/currency_dag.py took 0.066 seconds

@@ -1,0 +1,424 @@
+[2025-09-20T10:40:17.726+0200] {processor.py:157} INFO - Started process (PID=1236) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:40:17.727+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:40:17.728+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:40:17.728+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:40:17.747+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:40:17.852+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:40:17.851+0200] {manager.py:504} INFO - Created Permission View: can delete on DAG:promotions_dag
+[2025-09-20T10:40:17.863+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:40:17.863+0200] {manager.py:504} INFO - Created Permission View: can read on DAG:promotions_dag
+[2025-09-20T10:40:17.871+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:40:17.871+0200] {manager.py:504} INFO - Created Permission View: can edit on DAG:promotions_dag
+[2025-09-20T10:40:17.884+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:40:17.884+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:40:17.898+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:40:17.898+0200] {dag.py:2763} INFO - Creating ORM DAG for promotions_dag
+[2025-09-20T10:40:17.911+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:40:17.911+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-07T00:00:00+00:00, run_after=2025-09-14T00:00:00+00:00
+[2025-09-20T10:40:17.925+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.202 seconds
+[2025-09-20T10:40:48.394+0200] {processor.py:157} INFO - Started process (PID=1266) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:40:48.396+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:40:48.398+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:40:48.398+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:40:48.410+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:40:48.439+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:40:48.439+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:40:48.460+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:40:48.460+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-07T00:00:00+00:00, run_after=2025-09-14T00:00:00+00:00
+[2025-09-20T10:40:48.476+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.085 seconds
+[2025-09-20T10:41:18.963+0200] {processor.py:157} INFO - Started process (PID=1296) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:41:18.964+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:41:18.966+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:41:18.966+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:41:18.980+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:41:19.016+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:41:19.015+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:41:19.044+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:41:19.044+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-07T00:00:00+00:00, run_after=2025-09-14T00:00:00+00:00
+[2025-09-20T10:41:19.060+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.100 seconds
+[2025-09-20T10:41:49.460+0200] {processor.py:157} INFO - Started process (PID=1326) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:41:49.465+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:41:49.466+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:41:49.466+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:41:49.481+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:41:49.502+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:41:49.502+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:41:49.521+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:41:49.521+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-07T00:00:00+00:00, run_after=2025-09-14T00:00:00+00:00
+[2025-09-20T10:41:49.536+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.079 seconds
+[2025-09-20T10:42:19.958+0200] {processor.py:157} INFO - Started process (PID=1356) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:42:19.959+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:42:19.961+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:42:19.960+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:42:19.976+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:42:20.004+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:42:20.003+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:42:20.026+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:42:20.026+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-07T00:00:00+00:00, run_after=2025-09-14T00:00:00+00:00
+[2025-09-20T10:42:20.041+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.086 seconds
+[2025-09-20T10:42:50.496+0200] {processor.py:157} INFO - Started process (PID=1386) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:42:50.497+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:42:50.498+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:42:50.498+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:42:50.516+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:42:50.545+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:42:50.545+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:42:50.571+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:42:50.570+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-07T00:00:00+00:00, run_after=2025-09-14T00:00:00+00:00
+[2025-09-20T10:42:50.586+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.094 seconds
+[2025-09-20T10:43:21.089+0200] {processor.py:157} INFO - Started process (PID=1416) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:43:21.089+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:43:21.091+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:43:21.091+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:43:21.128+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:43:21.171+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:43:21.171+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:43:21.194+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:43:21.194+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-07T00:00:00+00:00, run_after=2025-09-14T00:00:00+00:00
+[2025-09-20T10:43:21.210+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.124 seconds
+[2025-09-20T10:43:51.689+0200] {processor.py:157} INFO - Started process (PID=1446) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:43:51.690+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:43:51.691+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:43:51.691+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:43:51.707+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:43:51.743+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:43:51.743+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:43:51.774+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:43:51.774+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-07T00:00:00+00:00, run_after=2025-09-14T00:00:00+00:00
+[2025-09-20T10:43:51.795+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.110 seconds
+[2025-09-20T10:44:22.323+0200] {processor.py:157} INFO - Started process (PID=1484) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:44:22.327+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:44:22.327+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:44:22.327+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:44:22.341+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:44:22.375+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:44:22.375+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:44:22.407+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:44:22.406+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T10:44:22.424+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.105 seconds
+[2025-09-20T10:44:52.973+0200] {processor.py:157} INFO - Started process (PID=1516) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:44:52.980+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:44:52.993+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:44:52.989+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:44:53.015+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:44:53.058+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:44:53.057+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:44:53.088+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:44:53.088+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T10:44:53.108+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.145 seconds
+[2025-09-20T10:45:23.534+0200] {processor.py:157} INFO - Started process (PID=1546) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:45:23.536+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:45:23.537+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:45:23.537+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:45:23.559+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:45:23.599+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:45:23.599+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:45:23.628+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:45:23.628+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T10:45:23.648+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.124 seconds
+[2025-09-20T10:45:54.102+0200] {processor.py:157} INFO - Started process (PID=1581) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:45:54.104+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:45:54.105+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:45:54.105+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:45:54.119+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:45:54.155+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:45:54.155+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:45:54.182+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:45:54.182+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T10:45:54.198+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.101 seconds
+[2025-09-20T10:46:24.704+0200] {processor.py:157} INFO - Started process (PID=1618) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:46:24.707+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:46:24.708+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:46:24.708+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:46:24.719+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:46:24.746+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:46:24.746+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:46:24.767+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:46:24.767+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T10:46:24.783+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.082 seconds
+[2025-09-20T10:46:25.814+0200] {processor.py:157} INFO - Started process (PID=1628) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:46:25.815+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:46:25.816+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:46:25.815+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:46:25.830+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:46:25.863+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:46:25.863+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:46:25.887+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:46:25.886+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T10:46:25.899+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.088 seconds
+[2025-09-20T10:46:56.319+0200] {processor.py:157} INFO - Started process (PID=1658) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:46:56.320+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:46:56.321+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:46:56.321+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:46:56.331+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:46:56.360+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:46:56.360+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:46:56.384+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:46:56.383+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T10:46:56.398+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.082 seconds
+[2025-09-20T10:47:26.833+0200] {processor.py:157} INFO - Started process (PID=1688) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:47:26.834+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:47:26.835+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:47:26.834+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:47:26.846+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:47:26.873+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:47:26.873+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:47:26.895+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:47:26.895+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T10:47:26.908+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.078 seconds
+[2025-09-20T10:47:57.396+0200] {processor.py:157} INFO - Started process (PID=1718) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:47:57.397+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:47:57.398+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:47:57.398+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:47:57.415+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:47:57.444+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:47:57.444+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:47:57.468+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:47:57.468+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T10:47:57.482+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.090 seconds
+[2025-09-20T10:48:27.915+0200] {processor.py:157} INFO - Started process (PID=1748) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:48:27.916+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:48:27.916+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:48:27.916+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:48:27.934+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:48:27.970+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:48:27.970+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:48:27.997+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:48:27.997+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T10:48:28.011+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.100 seconds
+[2025-09-20T10:48:58.436+0200] {processor.py:157} INFO - Started process (PID=1784) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:48:58.438+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:48:58.438+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:48:58.438+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:48:58.456+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:48:58.485+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:48:58.485+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:48:58.513+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:48:58.513+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T10:48:58.528+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.097 seconds
+[2025-09-20T10:49:28.974+0200] {processor.py:157} INFO - Started process (PID=1818) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:49:28.975+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:49:28.976+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:49:28.976+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:49:28.988+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:49:29.014+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:49:29.013+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:49:29.037+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:49:29.037+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T10:49:29.050+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.080 seconds
+[2025-09-20T10:49:59.488+0200] {processor.py:157} INFO - Started process (PID=1848) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:49:59.489+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:49:59.490+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:49:59.490+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:49:59.501+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:49:59.529+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:49:59.528+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:49:59.551+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:49:59.551+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T10:49:59.565+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.080 seconds
+[2025-09-20T10:50:30.041+0200] {processor.py:157} INFO - Started process (PID=1878) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:50:30.042+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:50:30.043+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:50:30.043+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:50:30.066+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:50:30.104+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:50:30.104+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:50:30.132+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:50:30.132+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T10:50:30.147+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.110 seconds
+[2025-09-20T10:51:00.426+0200] {processor.py:157} INFO - Started process (PID=1908) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:51:00.427+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:51:00.428+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:51:00.428+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:51:00.441+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:51:00.472+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:51:00.472+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:51:00.498+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:51:00.497+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T10:51:00.512+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.090 seconds
+[2025-09-20T10:51:30.907+0200] {processor.py:157} INFO - Started process (PID=1938) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:51:30.907+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:51:30.908+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:51:30.908+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:51:30.919+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:51:30.943+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:51:30.943+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:51:30.963+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:51:30.963+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T10:51:30.980+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.076 seconds
+[2025-09-20T10:52:01.372+0200] {processor.py:157} INFO - Started process (PID=1968) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:52:01.373+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:52:01.373+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:52:01.373+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:52:01.384+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:52:01.410+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:52:01.410+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:52:01.432+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:52:01.432+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T10:52:01.445+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.076 seconds
+[2025-09-20T10:52:31.841+0200] {processor.py:157} INFO - Started process (PID=1998) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:52:31.842+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:52:31.843+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:52:31.842+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:52:31.861+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:52:31.901+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:52:31.901+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:52:31.928+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:52:31.928+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T10:52:31.943+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.105 seconds
+[2025-09-20T10:53:02.274+0200] {processor.py:157} INFO - Started process (PID=2028) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:53:02.275+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:53:02.276+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:53:02.275+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:53:02.287+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:53:02.313+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:53:02.313+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:53:02.337+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:53:02.337+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T10:53:02.350+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.079 seconds
+[2025-09-20T10:53:32.732+0200] {processor.py:157} INFO - Started process (PID=2058) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:53:32.733+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:53:32.733+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:53:32.733+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:53:32.744+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:53:32.772+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:53:32.772+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:53:32.795+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:53:32.795+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T10:53:32.808+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.080 seconds
+[2025-09-20T10:54:03.247+0200] {processor.py:157} INFO - Started process (PID=2088) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:54:03.250+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:54:03.251+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:54:03.250+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:54:03.261+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:54:03.289+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:54:03.288+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:54:03.311+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:54:03.310+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T10:54:03.323+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.080 seconds
+[2025-09-20T10:54:33.750+0200] {processor.py:157} INFO - Started process (PID=2118) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:54:33.750+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:54:33.751+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:54:33.751+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:54:33.762+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:54:33.791+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:54:33.790+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:54:33.813+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:54:33.813+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T10:54:33.826+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.080 seconds
+[2025-09-20T10:55:04.258+0200] {processor.py:157} INFO - Started process (PID=2148) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:55:04.258+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:55:04.259+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:55:04.259+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:55:04.270+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:55:04.297+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:55:04.297+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:55:04.320+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:55:04.319+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T10:55:04.333+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.078 seconds
+[2025-09-20T10:55:34.750+0200] {processor.py:157} INFO - Started process (PID=2178) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:55:34.751+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:55:34.752+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:55:34.752+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:55:34.771+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:55:34.806+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:55:34.806+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:55:34.832+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:55:34.832+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T10:55:34.847+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.100 seconds
+[2025-09-20T10:56:05.271+0200] {processor.py:157} INFO - Started process (PID=2208) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:56:05.272+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:56:05.273+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:56:05.272+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:56:05.283+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:56:05.311+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:56:05.310+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:56:05.333+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:56:05.333+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T10:56:05.346+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.078 seconds
+[2025-09-20T10:56:35.812+0200] {processor.py:157} INFO - Started process (PID=2238) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:56:35.814+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:56:35.815+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:56:35.815+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:56:35.830+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:56:35.858+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:56:35.858+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:56:35.881+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:56:35.881+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T10:56:35.895+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.088 seconds
+[2025-09-20T10:57:06.328+0200] {processor.py:157} INFO - Started process (PID=2268) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:57:06.329+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:57:06.330+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:57:06.330+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:57:06.342+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:57:06.369+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:57:06.369+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:57:06.391+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:57:06.391+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T10:57:06.403+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.079 seconds
+[2025-09-20T10:57:36.813+0200] {processor.py:157} INFO - Started process (PID=2298) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:57:36.814+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:57:36.815+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:57:36.815+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:57:36.824+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:57:36.849+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:57:36.849+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:57:36.872+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:57:36.872+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T10:57:36.886+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.076 seconds
+[2025-09-20T10:58:07.290+0200] {processor.py:157} INFO - Started process (PID=2328) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:58:07.291+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:58:07.292+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:58:07.292+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:58:07.305+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:58:07.334+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:58:07.334+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:58:07.357+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:58:07.357+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T10:58:07.371+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.085 seconds
+[2025-09-20T10:58:37.779+0200] {processor.py:157} INFO - Started process (PID=2358) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:58:37.780+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:58:37.780+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:58:37.780+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:58:37.789+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:58:37.816+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:58:37.815+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:58:37.837+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:58:37.837+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T10:58:37.850+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.074 seconds
+[2025-09-20T10:59:08.274+0200] {processor.py:157} INFO - Started process (PID=2388) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:59:08.274+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:59:08.275+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:59:08.275+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:59:08.287+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:59:08.315+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:59:08.314+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:59:08.337+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:59:08.337+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T10:59:08.350+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.080 seconds
+[2025-09-20T10:59:38.771+0200] {processor.py:157} INFO - Started process (PID=2418) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:59:38.772+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T10:59:38.773+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:59:38.773+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:59:38.784+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T10:59:38.811+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:59:38.811+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:59:38.834+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:59:38.833+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T10:59:38.847+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.079 seconds
+[2025-09-20T11:00:09.289+0200] {processor.py:157} INFO - Started process (PID=2448) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:00:09.290+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T11:00:09.291+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:00:09.291+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:00:09.304+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:00:09.332+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:00:09.332+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:00:09.355+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:00:09.355+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:00:09.369+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.084 seconds
+[2025-09-20T11:00:39.839+0200] {processor.py:157} INFO - Started process (PID=2478) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:00:39.840+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T11:00:39.840+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:00:39.840+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:00:39.852+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:00:39.877+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:00:39.876+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:00:39.896+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:00:39.896+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:00:39.909+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.074 seconds
+[2025-09-20T11:01:10.345+0200] {processor.py:157} INFO - Started process (PID=2508) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:01:10.346+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T11:01:10.347+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:01:10.347+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:01:10.357+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:01:10.382+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:01:10.382+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:01:10.405+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:01:10.405+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:01:10.422+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.080 seconds
+[2025-09-20T11:01:40.877+0200] {processor.py:157} INFO - Started process (PID=2538) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:01:40.878+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T11:01:40.879+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:01:40.879+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:01:40.896+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:01:40.928+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:01:40.928+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:01:40.950+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:01:40.950+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:01:40.963+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.089 seconds
+[2025-09-20T11:02:11.372+0200] {processor.py:157} INFO - Started process (PID=2568) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:02:11.373+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T11:02:11.374+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:02:11.373+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:02:11.384+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:02:11.412+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:02:11.411+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:02:11.434+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:02:11.434+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:02:11.447+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.077 seconds
+[2025-09-20T11:02:41.807+0200] {processor.py:157} INFO - Started process (PID=2598) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:02:41.809+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T11:02:41.810+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:02:41.810+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:02:41.822+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:02:41.849+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:02:41.849+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:02:41.872+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:02:41.872+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:02:41.885+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.082 seconds
+[2025-09-20T11:03:12.472+0200] {processor.py:157} INFO - Started process (PID=2628) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:03:12.473+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T11:03:12.474+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:03:12.473+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:03:12.487+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:03:12.528+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:03:12.528+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:03:12.558+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:03:12.558+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:03:12.573+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.105 seconds
+[2025-09-20T11:03:42.979+0200] {processor.py:157} INFO - Started process (PID=2658) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:03:42.980+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T11:03:42.982+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:03:42.982+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:03:42.994+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:03:43.020+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:03:43.019+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:03:43.044+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:03:43.043+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:03:43.057+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.083 seconds
+[2025-09-20T11:04:13.456+0200] {processor.py:157} INFO - Started process (PID=2688) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:04:13.457+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T11:04:13.457+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:04:13.457+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:04:13.467+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:04:13.491+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:04:13.491+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:04:13.512+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:04:13.512+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:04:13.523+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.070 seconds
+[2025-09-20T11:04:43.958+0200] {processor.py:157} INFO - Started process (PID=2718) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:04:43.959+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T11:04:43.960+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:04:43.960+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:04:43.975+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:04:44.008+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:04:44.008+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:04:44.034+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:04:44.034+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:04:44.048+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.095 seconds
+[2025-09-20T11:05:14.501+0200] {processor.py:157} INFO - Started process (PID=2748) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:05:14.502+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T11:05:14.503+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:05:14.503+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:05:14.519+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:05:14.554+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:05:14.554+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:05:14.581+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:05:14.581+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:05:14.596+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.099 seconds
+[2025-09-20T11:05:44.964+0200] {processor.py:157} INFO - Started process (PID=2778) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:05:44.966+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T11:05:44.966+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:05:44.966+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:05:44.980+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:05:45.011+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:05:45.010+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:05:45.033+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:05:45.033+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:05:45.045+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.085 seconds
+[2025-09-20T11:06:15.462+0200] {processor.py:157} INFO - Started process (PID=2808) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:06:15.463+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T11:06:15.464+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:06:15.464+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:06:15.483+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:06:15.517+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:06:15.517+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:06:15.539+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:06:15.539+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:06:15.554+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.097 seconds
+[2025-09-20T11:06:45.971+0200] {processor.py:157} INFO - Started process (PID=2838) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:06:45.972+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T11:06:45.974+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:06:45.973+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:06:45.984+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:06:46.011+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:06:46.011+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:06:46.034+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:06:46.034+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:06:46.047+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.079 seconds
+[2025-09-20T11:07:16.489+0200] {processor.py:157} INFO - Started process (PID=2868) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:07:16.490+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T11:07:16.491+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:07:16.490+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:07:16.503+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:07:16.532+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:07:16.532+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:07:16.557+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:07:16.557+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:07:16.569+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.083 seconds
+[2025-09-20T11:07:46.986+0200] {processor.py:157} INFO - Started process (PID=2898) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:07:46.987+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T11:07:46.988+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:07:46.987+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:07:46.999+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:07:47.027+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:07:47.027+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:07:47.050+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:07:47.049+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:07:47.063+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.082 seconds
+[2025-09-20T11:08:17.485+0200] {processor.py:157} INFO - Started process (PID=2928) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:08:17.486+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T11:08:17.487+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:08:17.487+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:08:17.499+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:08:17.532+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:08:17.531+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:08:17.557+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:08:17.556+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:08:17.571+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.089 seconds
+[2025-09-20T11:08:48.045+0200] {processor.py:157} INFO - Started process (PID=2958) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:08:48.046+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T11:08:48.047+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:08:48.046+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:08:48.056+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:08:48.083+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:08:48.083+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:08:48.110+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:08:48.110+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:08:48.122+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.080 seconds
+[2025-09-20T11:09:18.519+0200] {processor.py:157} INFO - Started process (PID=2988) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:09:18.521+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T11:09:18.522+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:09:18.522+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:09:18.536+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:09:18.567+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:09:18.566+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:09:18.592+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:09:18.591+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:09:18.605+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.090 seconds
+[2025-09-20T11:09:49.054+0200] {processor.py:157} INFO - Started process (PID=3018) to work on /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:09:49.055+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_promotions.py for tasks to queue
+[2025-09-20T11:09:49.059+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:09:49.059+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:09:49.071+0200] {processor.py:836} INFO - DAG(s) dict_keys(['promotions_dag']) retrieved from /opt/airflow/dags/dag_promotions.py
+[2025-09-20T11:09:49.100+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:09:49.100+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:09:49.126+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:09:49.126+0200] {dag.py:3508} INFO - Setting next_dagrun for promotions_dag to 2025-09-14T00:00:00+00:00, run_after=2025-09-21T00:00:00+00:00
+[2025-09-20T11:09:49.139+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_promotions.py took 0.089 seconds

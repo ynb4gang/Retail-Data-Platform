@@ -1,0 +1,13 @@
+[2025-09-20T11:27:27.802+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: currency_dag.fetch_currency manual__2025-09-20T09:27:26.515514+00:00 [queued]>
+[2025-09-20T11:27:27.810+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: currency_dag.fetch_currency manual__2025-09-20T09:27:26.515514+00:00 [queued]>
+[2025-09-20T11:27:27.810+0200] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2025-09-20T11:27:27.820+0200] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): fetch_currency> on 2025-09-20 09:27:26.515514+00:00
+[2025-09-20T11:27:27.822+0200] {standard_task_runner.py:57} INFO - Started process 3982 to run task
+[2025-09-20T11:27:27.825+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'currency_dag', 'fetch_currency', 'manual__2025-09-20T09:27:26.515514+00:00', '--job-id', '29', '--raw', '--subdir', 'DAGS_FOLDER/currency_dag.py', '--cfg-path', '/tmp/tmp72aa4lzp']
+[2025-09-20T11:27:27.826+0200] {standard_task_runner.py:85} INFO - Job 29: Subtask fetch_currency
+[2025-09-20T11:27:27.866+0200] {task_command.py:410} INFO - Running <TaskInstance: currency_dag.fetch_currency manual__2025-09-20T09:27:26.515514+00:00 [running]> on host 1102361e702e
+[2025-09-20T11:27:27.943+0200] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='currency_dag' AIRFLOW_CTX_TASK_ID='fetch_currency' AIRFLOW_CTX_EXECUTION_DATE='2025-09-20T09:27:26.515514+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-09-20T09:27:26.515514+00:00'
+[2025-09-20T11:27:28.228+0200] {python.py:183} INFO - Done. Returned value was: None
+[2025-09-20T11:27:28.241+0200] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=currency_dag, task_id=fetch_currency, execution_date=20250920T092726, start_date=20250920T092727, end_date=20250920T092728
+[2025-09-20T11:27:28.294+0200] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-09-20T11:27:28.314+0200] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

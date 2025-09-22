@@ -1,0 +1,25 @@
+[2025-09-20T11:58:30.027+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: manual_full_load.load_promotions_staging manual__2025-09-20T09:48:23.778100+00:00 [queued]>
+[2025-09-20T11:58:30.035+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: manual_full_load.load_promotions_staging manual__2025-09-20T09:48:23.778100+00:00 [queued]>
+[2025-09-20T11:58:30.036+0200] {taskinstance.py:1308} INFO - Starting attempt 2 of 2
+[2025-09-20T11:58:30.055+0200] {taskinstance.py:1327} INFO - Executing <Task(PostgresOperator): load_promotions_staging> on 2025-09-20 09:48:23.778100+00:00
+[2025-09-20T11:58:30.059+0200] {standard_task_runner.py:57} INFO - Started process 6770 to run task
+[2025-09-20T11:58:30.063+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'manual_full_load', 'load_promotions_staging', 'manual__2025-09-20T09:48:23.778100+00:00', '--job-id', '63', '--raw', '--subdir', 'DAGS_FOLDER/manual_full_load.py', '--cfg-path', '/tmp/tmpd7qfw6qm']
+[2025-09-20T11:58:30.068+0200] {standard_task_runner.py:85} INFO - Job 63: Subtask load_promotions_staging
+[2025-09-20T11:58:30.121+0200] {task_command.py:410} INFO - Running <TaskInstance: manual_full_load.load_promotions_staging manual__2025-09-20T09:48:23.778100+00:00 [running]> on host 1102361e702e
+[2025-09-20T11:58:30.211+0200] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='manual_full_load' AIRFLOW_CTX_TASK_ID='load_promotions_staging' AIRFLOW_CTX_EXECUTION_DATE='2025-09-20T09:48:23.778100+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-09-20T09:48:23.778100+00:00'
+[2025-09-20T11:58:30.211+0200] {sql.py:265} INFO - Executing: 
+        INSERT INTO staging.promotions_stg (promo_id, product_id, start_date, end_date, discount, description)
+        SELECT promo_id, product_id, start_date, end_date, discount, description
+        FROM raw.promotions_api;
+        
+[2025-09-20T11:58:30.227+0200] {base.py:73} INFO - Using connection ID 'postgres_retail' for task execution.
+[2025-09-20T11:58:30.277+0200] {base.py:73} INFO - Using connection ID 'postgres_retail' for task execution.
+[2025-09-20T11:58:30.286+0200] {sql.py:375} INFO - Running statement: 
+        INSERT INTO staging.promotions_stg (promo_id, product_id, start_date, end_date, discount, description)
+        SELECT promo_id, product_id, start_date, end_date, discount, description
+        FROM raw.promotions_api;
+        , parameters: None
+[2025-09-20T11:58:30.288+0200] {sql.py:384} INFO - Rows affected: 20
+[2025-09-20T11:58:30.300+0200] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=manual_full_load, task_id=load_promotions_staging, execution_date=20250920T094823, start_date=20250920T095830, end_date=20250920T095830
+[2025-09-20T11:58:30.325+0200] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-09-20T11:58:30.352+0200] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

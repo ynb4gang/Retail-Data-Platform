@@ -1,0 +1,13 @@
+[2025-09-20T11:19:13.149+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sales_dag.generate_sales manual__2025-09-20T09:19:12.224573+00:00 [queued]>
+[2025-09-20T11:19:13.156+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sales_dag.generate_sales manual__2025-09-20T09:19:12.224573+00:00 [queued]>
+[2025-09-20T11:19:13.156+0200] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2025-09-20T11:19:13.166+0200] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): generate_sales> on 2025-09-20 09:19:12.224573+00:00
+[2025-09-20T11:19:13.169+0200] {standard_task_runner.py:57} INFO - Started process 3338 to run task
+[2025-09-20T11:19:13.171+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'sales_dag', 'generate_sales', 'manual__2025-09-20T09:19:12.224573+00:00', '--job-id', '17', '--raw', '--subdir', 'DAGS_FOLDER/sales_dag.py', '--cfg-path', '/tmp/tmp_nvbxqh7']
+[2025-09-20T11:19:13.173+0200] {standard_task_runner.py:85} INFO - Job 17: Subtask generate_sales
+[2025-09-20T11:19:13.212+0200] {task_command.py:410} INFO - Running <TaskInstance: sales_dag.generate_sales manual__2025-09-20T09:19:12.224573+00:00 [running]> on host 1102361e702e
+[2025-09-20T11:19:13.294+0200] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='sales_dag' AIRFLOW_CTX_TASK_ID='generate_sales' AIRFLOW_CTX_EXECUTION_DATE='2025-09-20T09:19:12.224573+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-09-20T09:19:12.224573+00:00'
+[2025-09-20T11:19:13.740+0200] {python.py:183} INFO - Done. Returned value was: None
+[2025-09-20T11:19:13.752+0200] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=sales_dag, task_id=generate_sales, execution_date=20250920T091912, start_date=20250920T091913, end_date=20250920T091913
+[2025-09-20T11:19:13.770+0200] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-09-20T11:19:13.790+0200] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

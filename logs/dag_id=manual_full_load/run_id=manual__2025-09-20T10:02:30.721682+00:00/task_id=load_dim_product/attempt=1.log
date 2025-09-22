@@ -1,0 +1,83 @@
+[2025-09-20T12:02:36.779+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: manual_full_load.load_dim_product manual__2025-09-20T10:02:30.721682+00:00 [queued]>
+[2025-09-20T12:02:36.788+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: manual_full_load.load_dim_product manual__2025-09-20T10:02:30.721682+00:00 [queued]>
+[2025-09-20T12:02:36.789+0200] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2025-09-20T12:02:36.800+0200] {taskinstance.py:1327} INFO - Executing <Task(PostgresOperator): load_dim_product> on 2025-09-20 10:02:30.721682+00:00
+[2025-09-20T12:02:36.804+0200] {standard_task_runner.py:57} INFO - Started process 7188 to run task
+[2025-09-20T12:02:36.808+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'manual_full_load', 'load_dim_product', 'manual__2025-09-20T10:02:30.721682+00:00', '--job-id', '92', '--raw', '--subdir', 'DAGS_FOLDER/manual_full_load.py', '--cfg-path', '/tmp/tmpjdyh2y48']
+[2025-09-20T12:02:36.811+0200] {standard_task_runner.py:85} INFO - Job 92: Subtask load_dim_product
+[2025-09-20T12:02:36.883+0200] {task_command.py:410} INFO - Running <TaskInstance: manual_full_load.load_dim_product manual__2025-09-20T10:02:30.721682+00:00 [running]> on host 1102361e702e
+[2025-09-20T12:02:36.976+0200] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='manual_full_load' AIRFLOW_CTX_TASK_ID='load_dim_product' AIRFLOW_CTX_EXECUTION_DATE='2025-09-20T10:02:30.721682+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-09-20T10:02:30.721682+00:00'
+[2025-09-20T12:02:36.977+0200] {sql.py:265} INFO - Executing: 
+        -- Сначала загружаем продукты из каталога
+        INSERT INTO dwh.dim_product (product_id, product_name, category, brand)
+        SELECT DISTINCT product_id, product_name, category, brand
+        FROM staging.products_stg
+        ON CONFLICT (product_id) DO UPDATE SET
+            product_name = EXCLUDED.product_name,
+            category = EXCLUDED.category,
+            brand = EXCLUDED.brand;
+            
+        -- Затем добавляем продукты из продаж, которых нет в каталоге
+        INSERT INTO dwh.dim_product (product_id, product_name, category, brand)
+        SELECT DISTINCT s.product_id, 'Unknown', 'Unknown', 'Unknown'
+        FROM staging.sales_stg s
+        LEFT JOIN dwh.dim_product p ON s.product_id = p.product_id
+        WHERE p.product_id IS NULL
+        ON CONFLICT (product_id) DO NOTHING;
+        
+        -- И продукты из конкурентов, которых нет в каталоге
+        INSERT INTO dwh.dim_product (product_id, product_name, category, brand)
+        SELECT DISTINCT c.product_id, 'Unknown', 'Unknown', 'Unknown'
+        FROM staging.competitors_stg c
+        LEFT JOIN dwh.dim_product p ON c.product_id = p.product_id
+        WHERE p.product_id IS NULL
+        ON CONFLICT (product_id) DO NOTHING;
+        
+        -- И продукты из акций, которых нет в каталоге
+        INSERT INTO dwh.dim_product (product_id, product_name, category, brand)
+        SELECT DISTINCT pr.product_id, 'Unknown', 'Unknown', 'Unknown'
+        FROM staging.promotions_stg pr
+        LEFT JOIN dwh.dim_product p ON pr.product_id = p.product_id
+        WHERE p.product_id IS NULL
+        ON CONFLICT (product_id) DO NOTHING;
+        
+[2025-09-20T12:02:37.004+0200] {base.py:73} INFO - Using connection ID 'postgres_retail' for task execution.
+[2025-09-20T12:02:37.080+0200] {base.py:73} INFO - Using connection ID 'postgres_retail' for task execution.
+[2025-09-20T12:02:37.086+0200] {sql.py:375} INFO - Running statement: 
+        -- Сначала загружаем продукты из каталога
+        INSERT INTO dwh.dim_product (product_id, product_name, category, brand)
+        SELECT DISTINCT product_id, product_name, category, brand
+        FROM staging.products_stg
+        ON CONFLICT (product_id) DO UPDATE SET
+            product_name = EXCLUDED.product_name,
+            category = EXCLUDED.category,
+            brand = EXCLUDED.brand;
+            
+        -- Затем добавляем продукты из продаж, которых нет в каталоге
+        INSERT INTO dwh.dim_product (product_id, product_name, category, brand)
+        SELECT DISTINCT s.product_id, 'Unknown', 'Unknown', 'Unknown'
+        FROM staging.sales_stg s
+        LEFT JOIN dwh.dim_product p ON s.product_id = p.product_id
+        WHERE p.product_id IS NULL
+        ON CONFLICT (product_id) DO NOTHING;
+        
+        -- И продукты из конкурентов, которых нет в каталоге
+        INSERT INTO dwh.dim_product (product_id, product_name, category, brand)
+        SELECT DISTINCT c.product_id, 'Unknown', 'Unknown', 'Unknown'
+        FROM staging.competitors_stg c
+        LEFT JOIN dwh.dim_product p ON c.product_id = p.product_id
+        WHERE p.product_id IS NULL
+        ON CONFLICT (product_id) DO NOTHING;
+        
+        -- И продукты из акций, которых нет в каталоге
+        INSERT INTO dwh.dim_product (product_id, product_name, category, brand)
+        SELECT DISTINCT pr.product_id, 'Unknown', 'Unknown', 'Unknown'
+        FROM staging.promotions_stg pr
+        LEFT JOIN dwh.dim_product p ON pr.product_id = p.product_id
+        WHERE p.product_id IS NULL
+        ON CONFLICT (product_id) DO NOTHING;
+        , parameters: None
+[2025-09-20T12:02:37.090+0200] {sql.py:384} INFO - Rows affected: 0
+[2025-09-20T12:02:37.115+0200] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=manual_full_load, task_id=load_dim_product, execution_date=20250920T100230, start_date=20250920T100236, end_date=20250920T100237
+[2025-09-20T12:02:37.152+0200] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-09-20T12:02:37.191+0200] {taskinstance.py:2653} INFO - 4 downstream tasks scheduled from follow-on schedule check

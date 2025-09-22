@@ -1,0 +1,13 @@
+[2025-09-20T12:06:21.595+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: promotions_dag.fetch_promotions manual__2025-09-20T10:06:20.256977+00:00 [queued]>
+[2025-09-20T12:06:21.603+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: promotions_dag.fetch_promotions manual__2025-09-20T10:06:20.256977+00:00 [queued]>
+[2025-09-20T12:06:21.603+0200] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2025-09-20T12:06:21.614+0200] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): fetch_promotions> on 2025-09-20 10:06:20.256977+00:00
+[2025-09-20T12:06:21.618+0200] {standard_task_runner.py:57} INFO - Started process 7549 to run task
+[2025-09-20T12:06:21.621+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'promotions_dag', 'fetch_promotions', 'manual__2025-09-20T10:06:20.256977+00:00', '--job-id', '110', '--raw', '--subdir', 'DAGS_FOLDER/promotions_dag.py', '--cfg-path', '/tmp/tmpyl5omn3u']
+[2025-09-20T12:06:21.623+0200] {standard_task_runner.py:85} INFO - Job 110: Subtask fetch_promotions
+[2025-09-20T12:06:21.675+0200] {task_command.py:410} INFO - Running <TaskInstance: promotions_dag.fetch_promotions manual__2025-09-20T10:06:20.256977+00:00 [running]> on host 1102361e702e
+[2025-09-20T12:06:21.765+0200] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='promotions_dag' AIRFLOW_CTX_TASK_ID='fetch_promotions' AIRFLOW_CTX_EXECUTION_DATE='2025-09-20T10:06:20.256977+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-09-20T10:06:20.256977+00:00'
+[2025-09-20T12:06:22.020+0200] {python.py:183} INFO - Done. Returned value was: None
+[2025-09-20T12:06:22.032+0200] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=promotions_dag, task_id=fetch_promotions, execution_date=20250920T100620, start_date=20250920T100621, end_date=20250920T100622
+[2025-09-20T12:06:22.046+0200] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-09-20T12:06:22.066+0200] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

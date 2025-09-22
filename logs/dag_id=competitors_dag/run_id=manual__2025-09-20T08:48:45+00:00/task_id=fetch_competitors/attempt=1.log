@@ -1,0 +1,13 @@
+[2025-09-20T10:48:46.822+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: competitors_dag.fetch_competitors manual__2025-09-20T08:48:45+00:00 [queued]>
+[2025-09-20T10:48:46.828+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: competitors_dag.fetch_competitors manual__2025-09-20T08:48:45+00:00 [queued]>
+[2025-09-20T10:48:46.828+0200] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2025-09-20T10:48:46.839+0200] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): fetch_competitors> on 2025-09-20 08:48:45+00:00
+[2025-09-20T10:48:46.842+0200] {standard_task_runner.py:57} INFO - Started process 1771 to run task
+[2025-09-20T10:48:46.846+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'competitors_dag', 'fetch_competitors', 'manual__2025-09-20T08:48:45+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/dag_competitors.py', '--cfg-path', '/tmp/tmp4o4ido_4']
+[2025-09-20T10:48:46.848+0200] {standard_task_runner.py:85} INFO - Job 11: Subtask fetch_competitors
+[2025-09-20T10:48:46.901+0200] {task_command.py:410} INFO - Running <TaskInstance: competitors_dag.fetch_competitors manual__2025-09-20T08:48:45+00:00 [running]> on host 1102361e702e
+[2025-09-20T10:48:47.003+0200] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='competitors_dag' AIRFLOW_CTX_TASK_ID='fetch_competitors' AIRFLOW_CTX_EXECUTION_DATE='2025-09-20T08:48:45+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-09-20T08:48:45+00:00'
+[2025-09-20T10:48:47.011+0200] {python.py:183} INFO - Done. Returned value was: None
+[2025-09-20T10:48:47.022+0200] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=competitors_dag, task_id=fetch_competitors, execution_date=20250920T084845, start_date=20250920T084846, end_date=20250920T084847
+[2025-09-20T10:48:47.068+0200] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-09-20T10:48:47.087+0200] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

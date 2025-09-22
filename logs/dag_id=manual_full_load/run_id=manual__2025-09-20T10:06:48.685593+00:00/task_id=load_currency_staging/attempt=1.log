@@ -1,0 +1,25 @@
+[2025-09-20T12:06:51.707+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: manual_full_load.load_currency_staging manual__2025-09-20T10:06:48.685593+00:00 [queued]>
+[2025-09-20T12:06:51.716+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: manual_full_load.load_currency_staging manual__2025-09-20T10:06:48.685593+00:00 [queued]>
+[2025-09-20T12:06:51.716+0200] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2025-09-20T12:06:51.737+0200] {taskinstance.py:1327} INFO - Executing <Task(PostgresOperator): load_currency_staging> on 2025-09-20 10:06:48.685593+00:00
+[2025-09-20T12:06:51.744+0200] {standard_task_runner.py:57} INFO - Started process 7608 to run task
+[2025-09-20T12:06:51.753+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'manual_full_load', 'load_currency_staging', 'manual__2025-09-20T10:06:48.685593+00:00', '--job-id', '117', '--raw', '--subdir', 'DAGS_FOLDER/manual_full_load.py', '--cfg-path', '/tmp/tmpc58furfe']
+[2025-09-20T12:06:51.756+0200] {standard_task_runner.py:85} INFO - Job 117: Subtask load_currency_staging
+[2025-09-20T12:06:51.807+0200] {task_command.py:410} INFO - Running <TaskInstance: manual_full_load.load_currency_staging manual__2025-09-20T10:06:48.685593+00:00 [running]> on host 1102361e702e
+[2025-09-20T12:06:51.916+0200] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='manual_full_load' AIRFLOW_CTX_TASK_ID='load_currency_staging' AIRFLOW_CTX_EXECUTION_DATE='2025-09-20T10:06:48.685593+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-09-20T10:06:48.685593+00:00'
+[2025-09-20T12:06:51.917+0200] {sql.py:265} INFO - Executing: 
+        INSERT INTO staging.currency_stg (rate_date, currency, rate)
+        SELECT date, currency, rate
+        FROM raw.currency_rates;
+        
+[2025-09-20T12:06:51.933+0200] {base.py:73} INFO - Using connection ID 'postgres_retail' for task execution.
+[2025-09-20T12:06:51.988+0200] {base.py:73} INFO - Using connection ID 'postgres_retail' for task execution.
+[2025-09-20T12:06:51.993+0200] {sql.py:375} INFO - Running statement: 
+        INSERT INTO staging.currency_stg (rate_date, currency, rate)
+        SELECT date, currency, rate
+        FROM raw.currency_rates;
+        , parameters: None
+[2025-09-20T12:06:51.994+0200] {sql.py:384} INFO - Rows affected: 9
+[2025-09-20T12:06:52.009+0200] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=manual_full_load, task_id=load_currency_staging, execution_date=20250920T100648, start_date=20250920T100651, end_date=20250920T100652
+[2025-09-20T12:06:52.053+0200] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-09-20T12:06:52.134+0200] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

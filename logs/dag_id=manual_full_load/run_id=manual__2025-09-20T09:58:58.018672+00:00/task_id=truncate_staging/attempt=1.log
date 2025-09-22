@@ -1,0 +1,28 @@
+[2025-09-20T11:59:00.319+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: manual_full_load.truncate_staging manual__2025-09-20T09:58:58.018672+00:00 [queued]>
+[2025-09-20T11:59:00.334+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: manual_full_load.truncate_staging manual__2025-09-20T09:58:58.018672+00:00 [queued]>
+[2025-09-20T11:59:00.334+0200] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2025-09-20T11:59:00.378+0200] {taskinstance.py:1327} INFO - Executing <Task(PostgresOperator): truncate_staging> on 2025-09-20 09:58:58.018672+00:00
+[2025-09-20T11:59:00.385+0200] {standard_task_runner.py:57} INFO - Started process 6831 to run task
+[2025-09-20T11:59:00.388+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'manual_full_load', 'truncate_staging', 'manual__2025-09-20T09:58:58.018672+00:00', '--job-id', '71', '--raw', '--subdir', 'DAGS_FOLDER/manual_full_load.py', '--cfg-path', '/tmp/tmpcdo7abpz']
+[2025-09-20T11:59:00.391+0200] {standard_task_runner.py:85} INFO - Job 71: Subtask truncate_staging
+[2025-09-20T11:59:00.446+0200] {task_command.py:410} INFO - Running <TaskInstance: manual_full_load.truncate_staging manual__2025-09-20T09:58:58.018672+00:00 [running]> on host 1102361e702e
+[2025-09-20T11:59:00.563+0200] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='manual_full_load' AIRFLOW_CTX_TASK_ID='truncate_staging' AIRFLOW_CTX_EXECUTION_DATE='2025-09-20T09:58:58.018672+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-09-20T09:58:58.018672+00:00'
+[2025-09-20T11:59:00.564+0200] {sql.py:265} INFO - Executing: 
+        TRUNCATE TABLE staging.sales_stg;
+        TRUNCATE TABLE staging.competitors_stg;
+        TRUNCATE TABLE staging.currency_stg;
+        TRUNCATE TABLE staging.products_stg;
+        TRUNCATE TABLE staging.promotions_stg;
+        
+[2025-09-20T11:59:00.584+0200] {base.py:73} INFO - Using connection ID 'postgres_retail' for task execution.
+[2025-09-20T11:59:00.645+0200] {base.py:73} INFO - Using connection ID 'postgres_retail' for task execution.
+[2025-09-20T11:59:00.651+0200] {sql.py:375} INFO - Running statement: 
+        TRUNCATE TABLE staging.sales_stg;
+        TRUNCATE TABLE staging.competitors_stg;
+        TRUNCATE TABLE staging.currency_stg;
+        TRUNCATE TABLE staging.products_stg;
+        TRUNCATE TABLE staging.promotions_stg;
+        , parameters: None
+[2025-09-20T11:59:00.673+0200] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=manual_full_load, task_id=truncate_staging, execution_date=20250920T095858, start_date=20250920T095900, end_date=20250920T095900
+[2025-09-20T11:59:00.693+0200] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-09-20T11:59:00.726+0200] {taskinstance.py:2653} INFO - 5 downstream tasks scheduled from follow-on schedule check

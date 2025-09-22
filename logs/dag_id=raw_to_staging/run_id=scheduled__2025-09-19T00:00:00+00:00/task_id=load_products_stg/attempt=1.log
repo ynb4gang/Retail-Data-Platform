@@ -1,0 +1,33 @@
+[2025-09-20T11:23:07.372+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: raw_to_staging.load_products_stg scheduled__2025-09-19T00:00:00+00:00 [queued]>
+[2025-09-20T11:23:07.383+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: raw_to_staging.load_products_stg scheduled__2025-09-19T00:00:00+00:00 [queued]>
+[2025-09-20T11:23:07.383+0200] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2025-09-20T11:23:07.399+0200] {taskinstance.py:1327} INFO - Executing <Task(PostgresOperator): load_products_stg> on 2025-09-19 00:00:00+00:00
+[2025-09-20T11:23:07.403+0200] {standard_task_runner.py:57} INFO - Started process 3644 to run task
+[2025-09-20T11:23:07.408+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'raw_to_staging', 'load_products_stg', 'scheduled__2025-09-19T00:00:00+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/dag_raw_to_staging.py', '--cfg-path', '/tmp/tmpwv6v86ms']
+[2025-09-20T11:23:07.413+0200] {standard_task_runner.py:85} INFO - Job 19: Subtask load_products_stg
+[2025-09-20T11:23:07.570+0200] {task_command.py:410} INFO - Running <TaskInstance: raw_to_staging.load_products_stg scheduled__2025-09-19T00:00:00+00:00 [running]> on host 1102361e702e
+[2025-09-20T11:23:07.738+0200] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='raw_to_staging' AIRFLOW_CTX_TASK_ID='load_products_stg' AIRFLOW_CTX_EXECUTION_DATE='2025-09-19T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-09-19T00:00:00+00:00'
+[2025-09-20T11:23:07.739+0200] {sql.py:265} INFO - Executing: 
+            INSERT INTO staging.products_stg (product_id, product_name, category, brand)
+            SELECT product_id, product_name, category, brand
+            FROM raw.products_catalog;
+        
+[2025-09-20T11:23:07.774+0200] {base.py:73} INFO - Using connection ID 'postgres_default' for task execution.
+[2025-09-20T11:23:08.034+0200] {base.py:73} INFO - Using connection ID 'postgres_default' for task execution.
+[2025-09-20T11:23:08.044+0200] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/operators/sql.py", line 277, in execute
+    **extra_kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/hooks/sql.py", line 342, in run
+    with closing(self.get_conn()) as conn:
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/postgres/hooks/postgres.py", line 145, in get_conn
+    self.conn = psycopg2.connect(**conn_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "postgres" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+[2025-09-20T11:23:08.067+0200] {taskinstance.py:1350} INFO - Marking task as UP_FOR_RETRY. dag_id=raw_to_staging, task_id=load_products_stg, execution_date=20250919T000000, start_date=20250920T092307, end_date=20250920T092308
+[2025-09-20T11:23:08.099+0200] {standard_task_runner.py:109} ERROR - Failed to execute job 19 for task load_products_stg (connection to server at "postgres" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+; 3644)
+[2025-09-20T11:23:08.126+0200] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2025-09-20T11:23:08.261+0200] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

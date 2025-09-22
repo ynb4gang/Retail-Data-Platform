@@ -1,0 +1,779 @@
+[2025-09-20T11:35:22.256+0200] {processor.py:157} INFO - Started process (PID=4652) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:35:22.257+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:35:22.257+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:35:22.257+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:35:22.269+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:35:22.268+0200] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/manual_full_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/manual_full_load.py", line 190, in <module>
+    ] >> end
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2025-09-20T11:35:22.269+0200] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:35:22.290+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.037 seconds
+[2025-09-20T11:35:52.864+0200] {processor.py:157} INFO - Started process (PID=4697) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:35:52.865+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:35:52.866+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:35:52.866+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:35:52.877+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:35:52.875+0200] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/manual_full_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/manual_full_load.py", line 190, in <module>
+    ] >> end
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2025-09-20T11:35:52.877+0200] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:35:52.900+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.041 seconds
+[2025-09-20T11:36:23.465+0200] {processor.py:157} INFO - Started process (PID=4742) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:36:23.468+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:36:23.470+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:36:23.469+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:36:23.496+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:36:23.492+0200] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/manual_full_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/manual_full_load.py", line 190, in <module>
+    ] >> end
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2025-09-20T11:36:23.496+0200] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:36:23.537+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.083 seconds
+[2025-09-20T11:36:54.135+0200] {processor.py:157} INFO - Started process (PID=4787) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:36:54.138+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:36:54.140+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:36:54.139+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:36:54.151+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:36:54.149+0200] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/manual_full_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/manual_full_load.py", line 190, in <module>
+    ] >> end
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2025-09-20T11:36:54.151+0200] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:36:54.171+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.039 seconds
+[2025-09-20T11:37:24.677+0200] {processor.py:157} INFO - Started process (PID=4832) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:37:24.678+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:37:24.679+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:37:24.679+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:37:24.691+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:37:24.690+0200] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/manual_full_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/manual_full_load.py", line 190, in <module>
+    ] >> end
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2025-09-20T11:37:24.692+0200] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:37:24.713+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.039 seconds
+[2025-09-20T11:37:55.247+0200] {processor.py:157} INFO - Started process (PID=4877) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:37:55.249+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:37:55.250+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:37:55.250+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:37:55.262+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:37:55.261+0200] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/manual_full_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/manual_full_load.py", line 190, in <module>
+    ] >> end
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2025-09-20T11:37:55.262+0200] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:37:55.282+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.038 seconds
+[2025-09-20T11:38:25.823+0200] {processor.py:157} INFO - Started process (PID=4922) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:38:25.824+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:38:25.825+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:38:25.824+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:38:25.837+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:38:25.835+0200] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/manual_full_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/manual_full_load.py", line 190, in <module>
+    ] >> end
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2025-09-20T11:38:25.837+0200] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:38:25.859+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.040 seconds
+[2025-09-20T11:38:34.940+0200] {processor.py:157} INFO - Started process (PID=4927) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:38:34.942+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:38:34.943+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:38:34.942+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:38:34.971+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:38:34.965+0200] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/manual_full_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/manual_full_load.py", line 197, in <module>
+    end
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1703, in chain
+    f"Chain not supported for different length Iterable. "
+airflow.exceptions.AirflowException: Chain not supported for different length Iterable. Got 4 and 3.
+[2025-09-20T11:38:34.972+0200] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:38:35.007+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.072 seconds
+[2025-09-20T11:39:05.621+0200] {processor.py:157} INFO - Started process (PID=4972) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:39:05.623+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:39:05.623+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:39:05.623+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:39:05.635+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:39:05.634+0200] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/manual_full_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/manual_full_load.py", line 197, in <module>
+    end
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1703, in chain
+    f"Chain not supported for different length Iterable. "
+airflow.exceptions.AirflowException: Chain not supported for different length Iterable. Got 4 and 3.
+[2025-09-20T11:39:05.636+0200] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:39:05.653+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.038 seconds
+[2025-09-20T11:39:36.215+0200] {processor.py:157} INFO - Started process (PID=5022) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:39:36.216+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:39:36.217+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:39:36.216+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:39:36.227+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:39:36.226+0200] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/manual_full_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/manual_full_load.py", line 197, in <module>
+    end
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1703, in chain
+    f"Chain not supported for different length Iterable. "
+airflow.exceptions.AirflowException: Chain not supported for different length Iterable. Got 4 and 3.
+[2025-09-20T11:39:36.228+0200] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:39:36.244+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.033 seconds
+[2025-09-20T11:40:06.844+0200] {processor.py:157} INFO - Started process (PID=5067) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:40:06.845+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:40:06.845+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:40:06.845+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:40:06.855+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:40:06.854+0200] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/manual_full_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/manual_full_load.py", line 197, in <module>
+    end
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1703, in chain
+    f"Chain not supported for different length Iterable. "
+airflow.exceptions.AirflowException: Chain not supported for different length Iterable. Got 4 and 3.
+[2025-09-20T11:40:06.855+0200] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:40:06.875+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.035 seconds
+[2025-09-20T11:40:37.683+0200] {processor.py:157} INFO - Started process (PID=5117) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:40:37.684+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:40:37.684+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:40:37.684+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:40:37.694+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:40:37.693+0200] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/manual_full_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/manual_full_load.py", line 197, in <module>
+    end
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1703, in chain
+    f"Chain not supported for different length Iterable. "
+airflow.exceptions.AirflowException: Chain not supported for different length Iterable. Got 4 and 3.
+[2025-09-20T11:40:37.695+0200] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:40:37.715+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.038 seconds
+[2025-09-20T11:41:08.317+0200] {processor.py:157} INFO - Started process (PID=5164) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:41:08.319+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:41:08.319+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:41:08.319+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:41:08.329+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:41:08.327+0200] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/manual_full_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/manual_full_load.py", line 197, in <module>
+    end
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1703, in chain
+    f"Chain not supported for different length Iterable. "
+airflow.exceptions.AirflowException: Chain not supported for different length Iterable. Got 4 and 3.
+[2025-09-20T11:41:08.329+0200] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:41:08.349+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.036 seconds
+[2025-09-20T11:41:38.988+0200] {processor.py:157} INFO - Started process (PID=5209) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:41:38.989+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:41:38.990+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:41:38.990+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:41:39.003+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:41:39.001+0200] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/manual_full_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/manual_full_load.py", line 197, in <module>
+    end
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1703, in chain
+    f"Chain not supported for different length Iterable. "
+airflow.exceptions.AirflowException: Chain not supported for different length Iterable. Got 4 and 3.
+[2025-09-20T11:41:39.003+0200] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:41:39.024+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.041 seconds
+[2025-09-20T11:41:51.142+0200] {processor.py:157} INFO - Started process (PID=5219) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:41:51.143+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:41:51.144+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:41:51.144+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:41:51.159+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:41:51.158+0200] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/manual_full_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/manual_full_load.py", line 201, in <module>
+    end
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1703, in chain
+    f"Chain not supported for different length Iterable. "
+airflow.exceptions.AirflowException: Chain not supported for different length Iterable. Got 4 and 3.
+[2025-09-20T11:41:51.160+0200] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:41:51.184+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.047 seconds
+[2025-09-20T11:42:21.791+0200] {processor.py:157} INFO - Started process (PID=5264) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:42:21.793+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:42:21.794+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:42:21.794+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:42:21.806+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:42:21.804+0200] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/manual_full_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/manual_full_load.py", line 201, in <module>
+    end
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1703, in chain
+    f"Chain not supported for different length Iterable. "
+airflow.exceptions.AirflowException: Chain not supported for different length Iterable. Got 4 and 3.
+[2025-09-20T11:42:21.806+0200] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:42:21.830+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.046 seconds
+[2025-09-20T11:42:52.475+0200] {processor.py:157} INFO - Started process (PID=5309) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:42:52.476+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:42:52.480+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:42:52.479+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:42:52.492+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:42:52.490+0200] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/manual_full_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/manual_full_load.py", line 201, in <module>
+    end
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1703, in chain
+    f"Chain not supported for different length Iterable. "
+airflow.exceptions.AirflowException: Chain not supported for different length Iterable. Got 4 and 3.
+[2025-09-20T11:42:52.492+0200] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:42:52.510+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.039 seconds
+[2025-09-20T11:43:23.178+0200] {processor.py:157} INFO - Started process (PID=5354) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:43:23.180+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:43:23.184+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:43:23.182+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:43:23.203+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:43:23.201+0200] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/manual_full_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/manual_full_load.py", line 201, in <module>
+    end
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1703, in chain
+    f"Chain not supported for different length Iterable. "
+airflow.exceptions.AirflowException: Chain not supported for different length Iterable. Got 4 and 3.
+[2025-09-20T11:43:23.203+0200] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:43:23.231+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.059 seconds
+[2025-09-20T11:43:53.979+0200] {processor.py:157} INFO - Started process (PID=5404) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:43:53.983+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:43:53.986+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:43:53.985+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:43:54.006+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:43:54.004+0200] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/manual_full_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/manual_full_load.py", line 201, in <module>
+    end
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1703, in chain
+    f"Chain not supported for different length Iterable. "
+airflow.exceptions.AirflowException: Chain not supported for different length Iterable. Got 4 and 3.
+[2025-09-20T11:43:54.007+0200] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:43:54.041+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.077 seconds
+[2025-09-20T11:44:24.679+0200] {processor.py:157} INFO - Started process (PID=5449) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:44:24.680+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:44:24.681+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:44:24.680+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:44:24.690+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:44:24.689+0200] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/manual_full_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/manual_full_load.py", line 201, in <module>
+    end
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1703, in chain
+    f"Chain not supported for different length Iterable. "
+airflow.exceptions.AirflowException: Chain not supported for different length Iterable. Got 4 and 3.
+[2025-09-20T11:44:24.690+0200] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:44:24.708+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.032 seconds
+[2025-09-20T11:44:55.312+0200] {processor.py:157} INFO - Started process (PID=5494) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:44:55.313+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:44:55.313+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:44:55.313+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:44:55.322+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:44:55.321+0200] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/manual_full_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/manual_full_load.py", line 201, in <module>
+    end
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1703, in chain
+    f"Chain not supported for different length Iterable. "
+airflow.exceptions.AirflowException: Chain not supported for different length Iterable. Got 4 and 3.
+[2025-09-20T11:44:55.322+0200] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:44:55.341+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.033 seconds
+[2025-09-20T11:45:26.014+0200] {processor.py:157} INFO - Started process (PID=5539) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:45:26.017+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:45:26.018+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:45:26.018+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:45:26.028+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:45:26.026+0200] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/manual_full_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/manual_full_load.py", line 201, in <module>
+    end
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1703, in chain
+    f"Chain not supported for different length Iterable. "
+airflow.exceptions.AirflowException: Chain not supported for different length Iterable. Got 4 and 3.
+[2025-09-20T11:45:26.028+0200] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:45:26.044+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.033 seconds
+[2025-09-20T11:45:56.863+0200] {processor.py:157} INFO - Started process (PID=5589) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:45:56.866+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:45:56.867+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:45:56.866+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:45:56.884+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:45:56.881+0200] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/manual_full_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/manual_full_load.py", line 201, in <module>
+    end
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1703, in chain
+    f"Chain not supported for different length Iterable. "
+airflow.exceptions.AirflowException: Chain not supported for different length Iterable. Got 4 and 3.
+[2025-09-20T11:45:56.884+0200] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:45:56.911+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.056 seconds
+[2025-09-20T11:46:27.511+0200] {processor.py:157} INFO - Started process (PID=5634) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:46:27.512+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:46:27.513+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:46:27.513+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:46:27.521+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:46:27.520+0200] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/manual_full_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/manual_full_load.py", line 201, in <module>
+    end
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1703, in chain
+    f"Chain not supported for different length Iterable. "
+airflow.exceptions.AirflowException: Chain not supported for different length Iterable. Got 4 and 3.
+[2025-09-20T11:46:27.522+0200] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:46:27.539+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.032 seconds
+[2025-09-20T11:46:58.210+0200] {processor.py:157} INFO - Started process (PID=5679) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:46:58.213+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:46:58.214+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:46:58.214+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:46:58.229+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:46:58.227+0200] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/manual_full_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/manual_full_load.py", line 201, in <module>
+    end
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1703, in chain
+    f"Chain not supported for different length Iterable. "
+airflow.exceptions.AirflowException: Chain not supported for different length Iterable. Got 4 and 3.
+[2025-09-20T11:46:58.230+0200] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:46:58.254+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.049 seconds
+[2025-09-20T11:47:28.856+0200] {processor.py:157} INFO - Started process (PID=5724) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:47:28.857+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:47:28.858+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:47:28.858+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:47:28.867+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:47:28.866+0200] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/manual_full_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/manual_full_load.py", line 201, in <module>
+    end
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1703, in chain
+    f"Chain not supported for different length Iterable. "
+airflow.exceptions.AirflowException: Chain not supported for different length Iterable. Got 4 and 3.
+[2025-09-20T11:47:28.868+0200] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:47:28.885+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.032 seconds
+[2025-09-20T11:47:59.457+0200] {processor.py:157} INFO - Started process (PID=5769) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:47:59.458+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:47:59.459+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:47:59.459+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:47:59.468+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:47:59.466+0200] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/manual_full_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/manual_full_load.py", line 201, in <module>
+    end
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1703, in chain
+    f"Chain not supported for different length Iterable. "
+airflow.exceptions.AirflowException: Chain not supported for different length Iterable. Got 4 and 3.
+[2025-09-20T11:47:59.468+0200] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:47:59.485+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.030 seconds
+[2025-09-20T11:48:05.811+0200] {processor.py:157} INFO - Started process (PID=5804) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:48:05.812+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:48:05.813+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:48:05.812+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:48:05.825+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:48:05.918+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:48:05.918+0200] {manager.py:504} INFO - Created Permission View: can delete on DAG:manual_full_load
+[2025-09-20T11:48:05.926+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:48:05.926+0200] {manager.py:504} INFO - Created Permission View: can read on DAG:manual_full_load
+[2025-09-20T11:48:05.929+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:48:05.929+0200] {manager.py:504} INFO - Created Permission View: can edit on DAG:manual_full_load
+[2025-09-20T11:48:05.940+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:48:05.940+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:48:05.950+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:48:05.949+0200] {dag.py:2763} INFO - Creating ORM DAG for manual_full_load
+[2025-09-20T11:48:05.958+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:48:05.958+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T11:48:05.971+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.164 seconds
+[2025-09-20T11:48:36.537+0200] {processor.py:157} INFO - Started process (PID=5851) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:48:36.538+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:48:36.538+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:48:36.538+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:48:36.552+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:48:36.583+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:48:36.583+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:48:36.606+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:48:36.606+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T11:48:36.619+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.088 seconds
+[2025-09-20T11:49:07.387+0200] {processor.py:157} INFO - Started process (PID=5896) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:49:07.388+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:49:07.388+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:49:07.388+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:49:07.401+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:49:07.430+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:49:07.430+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:49:07.452+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:49:07.452+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T11:49:07.468+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.085 seconds
+[2025-09-20T11:49:38.103+0200] {processor.py:157} INFO - Started process (PID=5941) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:49:38.104+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:49:38.105+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:49:38.104+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:49:38.118+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:49:38.148+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:49:38.148+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:49:38.172+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:49:38.171+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T11:49:38.185+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.086 seconds
+[2025-09-20T11:50:08.857+0200] {processor.py:157} INFO - Started process (PID=5986) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:50:08.858+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:50:08.859+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:50:08.858+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:50:08.872+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:50:08.901+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:50:08.901+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:50:08.923+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:50:08.922+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T11:50:08.936+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.084 seconds
+[2025-09-20T11:50:39.550+0200] {processor.py:157} INFO - Started process (PID=6031) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:50:39.552+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:50:39.553+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:50:39.553+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:50:39.569+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:50:39.602+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:50:39.602+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:50:39.629+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:50:39.628+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T11:50:39.645+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.098 seconds
+[2025-09-20T11:51:10.318+0200] {processor.py:157} INFO - Started process (PID=6076) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:51:10.320+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:51:10.320+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:51:10.320+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:51:10.335+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:51:10.372+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:51:10.372+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:51:10.399+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:51:10.398+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T11:51:10.415+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.102 seconds
+[2025-09-20T11:51:41.106+0200] {processor.py:157} INFO - Started process (PID=6121) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:51:41.107+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:51:41.108+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:51:41.108+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:51:41.119+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:51:41.146+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:51:41.146+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:51:41.168+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:51:41.168+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T11:51:41.182+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.081 seconds
+[2025-09-20T11:52:11.825+0200] {processor.py:157} INFO - Started process (PID=6166) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:52:11.826+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:52:11.827+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:52:11.826+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:52:11.839+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:52:11.872+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:52:11.872+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:52:11.894+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:52:11.894+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T11:52:11.907+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.086 seconds
+[2025-09-20T11:52:17.937+0200] {processor.py:157} INFO - Started process (PID=6171) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:52:17.938+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:52:17.938+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:52:17.938+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:52:17.956+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:52:17.984+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:52:17.984+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:52:18.005+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:52:18.005+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T11:52:18.022+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.089 seconds
+[2025-09-20T11:52:48.716+0200] {processor.py:157} INFO - Started process (PID=6231) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:52:48.717+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:52:48.718+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:52:48.718+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:52:48.735+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:52:48.775+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:52:48.775+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:52:48.805+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:52:48.805+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T11:52:48.822+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.111 seconds
+[2025-09-20T11:53:19.468+0200] {processor.py:157} INFO - Started process (PID=6276) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:53:19.469+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:53:19.470+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:53:19.470+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:53:19.489+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:53:19.524+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:53:19.524+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:53:19.550+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:53:19.550+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T11:53:19.565+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.103 seconds
+[2025-09-20T11:53:50.186+0200] {processor.py:157} INFO - Started process (PID=6331) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:53:50.187+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:53:50.188+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:53:50.188+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:53:50.201+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:53:50.229+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:53:50.229+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:53:50.251+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:53:50.251+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T11:53:50.266+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.083 seconds
+[2025-09-20T11:54:21.055+0200] {processor.py:157} INFO - Started process (PID=6381) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:54:21.057+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:54:21.058+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:54:21.057+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:54:21.072+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:54:21.107+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:54:21.107+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:54:21.131+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:54:21.131+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T11:54:21.146+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.097 seconds
+[2025-09-20T11:54:51.738+0200] {processor.py:157} INFO - Started process (PID=6426) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:54:51.739+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:54:51.740+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:54:51.740+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:54:51.756+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:54:51.787+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:54:51.787+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:54:51.810+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:54:51.809+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T11:54:51.825+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.092 seconds
+[2025-09-20T11:55:22.486+0200] {processor.py:157} INFO - Started process (PID=6471) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:55:22.487+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:55:22.488+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:55:22.488+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:55:22.506+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:55:22.542+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:55:22.542+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:55:22.564+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:55:22.564+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T11:55:22.579+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.098 seconds
+[2025-09-20T11:55:53.236+0200] {processor.py:157} INFO - Started process (PID=6516) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:55:53.237+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:55:53.238+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:55:53.237+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:55:53.249+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:55:53.274+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:55:53.274+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:55:53.294+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:55:53.294+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T11:55:53.306+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.074 seconds
+[2025-09-20T11:56:23.864+0200] {processor.py:157} INFO - Started process (PID=6561) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:56:23.865+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:56:23.866+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:56:23.866+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:56:23.877+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:56:23.903+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:56:23.903+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:56:23.925+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:56:23.924+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T11:56:23.936+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.075 seconds
+[2025-09-20T11:56:54.598+0200] {processor.py:157} INFO - Started process (PID=6606) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:56:54.599+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:56:54.600+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:56:54.600+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:56:54.618+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:56:54.651+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:56:54.651+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:56:54.676+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:56:54.676+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T11:56:54.691+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.098 seconds
+[2025-09-20T11:57:25.242+0200] {processor.py:157} INFO - Started process (PID=6651) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:57:25.243+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:57:25.243+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:57:25.243+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:57:25.255+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:57:25.280+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:57:25.280+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:57:25.303+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:57:25.302+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T11:57:25.315+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.077 seconds
+[2025-09-20T11:57:55.953+0200] {processor.py:157} INFO - Started process (PID=6704) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:57:55.954+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:57:55.956+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:57:55.955+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:57:55.977+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:57:56.013+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:57:56.013+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:57:56.041+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:57:56.041+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T11:57:56.063+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.115 seconds
+[2025-09-20T11:58:26.612+0200] {processor.py:157} INFO - Started process (PID=6749) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:58:26.613+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:58:26.614+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:58:26.614+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:58:26.628+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:58:26.660+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:58:26.660+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:58:26.684+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:58:26.683+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T11:58:26.698+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.093 seconds
+[2025-09-20T11:58:27.714+0200] {processor.py:157} INFO - Started process (PID=6754) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:58:27.717+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:58:27.718+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:58:27.717+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:58:27.730+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:58:27.845+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:58:27.845+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:58:27.868+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:58:27.868+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T11:58:27.887+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.177 seconds
+[2025-09-20T11:58:58.410+0200] {processor.py:157} INFO - Started process (PID=6825) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:58:58.411+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:58:58.412+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:58:58.412+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:58:58.425+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:58:58.462+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:58:58.462+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:58:58.490+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:58:58.490+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T11:58:58.505+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.099 seconds
+[2025-09-20T11:59:29.115+0200] {processor.py:157} INFO - Started process (PID=6898) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:59:29.117+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:59:29.118+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:59:29.118+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:59:29.131+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:59:29.159+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:59:29.159+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:59:29.183+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:59:29.183+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T11:59:29.198+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.087 seconds
+[2025-09-20T11:59:59.895+0200] {processor.py:157} INFO - Started process (PID=6943) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:59:59.896+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T11:59:59.897+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:59:59.897+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:59:59.914+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T11:59:59.948+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:59:59.947+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T11:59:59.974+0200] {logging_mixin.py:150} INFO - [2025-09-20T11:59:59.973+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T11:59:59.990+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.101 seconds
+[2025-09-20T12:00:30.593+0200] {processor.py:157} INFO - Started process (PID=6988) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:00:30.595+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T12:00:30.596+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:00:30.596+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:00:30.615+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:00:30.655+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:00:30.655+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:00:30.683+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:00:30.683+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T12:00:30.699+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.112 seconds
+[2025-09-20T12:01:01.263+0200] {processor.py:157} INFO - Started process (PID=7033) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:01:01.264+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T12:01:01.265+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:01:01.264+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:01:01.276+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:01:01.300+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:01:01.300+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:01:01.320+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:01:01.320+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T12:01:01.334+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.073 seconds
+[2025-09-20T12:01:31.964+0200] {processor.py:157} INFO - Started process (PID=7078) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:01:31.965+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T12:01:31.966+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:01:31.965+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:01:31.979+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:01:32.009+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:01:32.009+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:01:32.031+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:01:32.031+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T12:01:32.045+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.085 seconds
+[2025-09-20T12:02:01.577+0200] {processor.py:157} INFO - Started process (PID=7123) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:02:01.579+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T12:02:01.579+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:02:01.579+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:02:01.600+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:02:01.737+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:02:01.737+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:02:01.764+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:02:01.764+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T12:02:01.787+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.215 seconds
+[2025-09-20T12:02:32.436+0200] {processor.py:157} INFO - Started process (PID=7169) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:02:32.438+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T12:02:32.440+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:02:32.439+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:02:32.458+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:02:32.501+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:02:32.501+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:02:32.536+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:02:32.535+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T12:02:32.555+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.122 seconds
+[2025-09-20T12:03:03.213+0200] {processor.py:157} INFO - Started process (PID=7241) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:03:03.215+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T12:03:03.216+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:03:03.216+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:03:03.234+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:03:03.270+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:03:03.270+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:03:03.297+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:03:03.296+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T12:03:03.311+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.103 seconds
+[2025-09-20T12:03:33.959+0200] {processor.py:157} INFO - Started process (PID=7294) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:03:33.960+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T12:03:33.961+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:03:33.961+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:03:33.983+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:03:34.025+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:03:34.024+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:03:34.063+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:03:34.062+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T12:03:34.091+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.135 seconds
+[2025-09-20T12:04:04.577+0200] {processor.py:157} INFO - Started process (PID=7339) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:04:04.579+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T12:04:04.580+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:04:04.579+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:04:04.599+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:04:04.646+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:04:04.646+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:04:04.680+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:04:04.680+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T12:04:04.705+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.132 seconds
+[2025-09-20T12:04:35.191+0200] {processor.py:157} INFO - Started process (PID=7392) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:04:35.192+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T12:04:35.193+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:04:35.193+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:04:35.205+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:04:35.232+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:04:35.232+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:04:35.256+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:04:35.256+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T12:04:35.270+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.084 seconds
+[2025-09-20T12:05:06.059+0200] {processor.py:157} INFO - Started process (PID=7437) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:05:06.062+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T12:05:06.062+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:05:06.062+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:05:06.077+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:05:06.108+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:05:06.108+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:05:06.130+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:05:06.130+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T12:05:06.145+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.090 seconds
+[2025-09-20T12:05:25.732+0200] {processor.py:157} INFO - Started process (PID=7480) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:05:25.734+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T12:05:25.735+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:05:25.735+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:05:25.751+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:05:25.863+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:05:25.863+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:05:25.881+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:05:25.881+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T12:05:25.899+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.168 seconds
+[2025-09-20T12:05:56.214+0200] {processor.py:157} INFO - Started process (PID=7497) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:05:56.215+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T12:05:56.216+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:05:56.216+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:05:56.233+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:05:56.262+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:05:56.262+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:05:56.284+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:05:56.284+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T12:05:56.299+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.089 seconds
+[2025-09-20T12:06:26.966+0200] {processor.py:157} INFO - Started process (PID=7550) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:06:26.967+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T12:06:26.968+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:06:26.968+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:06:26.982+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:06:27.014+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:06:27.013+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:06:27.042+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:06:27.042+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T12:06:27.058+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.095 seconds
+[2025-09-20T12:06:57.706+0200] {processor.py:157} INFO - Started process (PID=7625) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:06:57.708+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T12:06:57.709+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:06:57.709+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:06:57.731+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:06:57.759+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:06:57.759+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:06:57.782+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:06:57.782+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T12:06:57.800+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.100 seconds
+[2025-09-20T12:07:28.436+0200] {processor.py:157} INFO - Started process (PID=7670) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:07:28.437+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T12:07:28.438+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:07:28.438+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:07:28.449+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:07:28.480+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:07:28.480+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:07:28.501+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:07:28.501+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T12:07:28.520+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.088 seconds
+[2025-09-20T12:07:59.168+0200] {processor.py:157} INFO - Started process (PID=7715) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:07:59.170+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T12:07:59.172+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:07:59.171+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:07:59.193+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:07:59.229+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:07:59.229+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:07:59.258+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:07:59.258+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T12:07:59.275+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.112 seconds
+[2025-09-20T12:08:29.916+0200] {processor.py:157} INFO - Started process (PID=7760) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:08:29.917+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T12:08:29.918+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:08:29.918+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:08:29.930+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:08:29.963+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:08:29.963+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:08:29.984+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:08:29.984+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T12:08:30.001+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.089 seconds
+[2025-09-20T12:09:00.641+0200] {processor.py:157} INFO - Started process (PID=7805) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:09:00.645+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T12:09:00.647+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:09:00.647+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:09:00.666+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:09:00.695+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:09:00.694+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:09:00.720+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:09:00.720+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T12:09:00.736+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.100 seconds
+[2025-09-20T12:09:31.436+0200] {processor.py:157} INFO - Started process (PID=7850) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:09:31.437+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T12:09:31.438+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:09:31.438+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:09:31.451+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:09:31.481+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:09:31.481+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:09:31.503+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:09:31.503+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T12:09:31.520+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.088 seconds
+[2025-09-20T12:09:54.129+0200] {processor.py:157} INFO - Started process (PID=7890) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:09:54.130+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T12:09:54.131+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:09:54.130+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:09:54.142+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:09:54.244+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:09:54.244+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:09:54.265+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:09:54.265+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T12:09:54.284+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.159 seconds
+[2025-09-20T12:09:55.144+0200] {processor.py:157} INFO - Started process (PID=7895) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:09:55.145+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T12:09:55.145+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:09:55.145+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:09:55.158+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:09:55.175+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:09:55.175+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:09:55.198+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:09:55.198+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T12:09:55.219+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.079 seconds
+[2025-09-20T12:09:58.190+0200] {processor.py:157} INFO - Started process (PID=7905) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:09:58.191+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T12:09:58.192+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:09:58.191+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:09:58.206+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:09:58.218+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:09:58.218+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:09:58.237+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:09:58.236+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T12:09:58.251+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.066 seconds
+[2025-09-20T12:10:29.192+0200] {processor.py:157} INFO - Started process (PID=7978) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:10:29.195+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T12:10:29.196+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:10:29.196+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:10:29.213+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:10:29.249+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:10:29.249+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:10:29.274+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:10:29.273+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T12:10:29.289+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.101 seconds
+[2025-09-20T12:10:59.857+0200] {processor.py:157} INFO - Started process (PID=8023) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:10:59.858+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T12:10:59.858+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:10:59.858+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:10:59.870+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:10:59.898+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:10:59.898+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:10:59.920+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:10:59.919+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T12:10:59.933+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.080 seconds
+[2025-09-20T12:11:30.501+0200] {processor.py:157} INFO - Started process (PID=8068) to work on /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:11:30.502+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/manual_full_load.py for tasks to queue
+[2025-09-20T12:11:30.503+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:11:30.503+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:11:30.516+0200] {processor.py:836} INFO - DAG(s) dict_keys(['manual_full_load']) retrieved from /opt/airflow/dags/manual_full_load.py
+[2025-09-20T12:11:30.543+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:11:30.543+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T12:11:30.565+0200] {logging_mixin.py:150} INFO - [2025-09-20T12:11:30.565+0200] {dag.py:3508} INFO - Setting next_dagrun for manual_full_load to None, run_after=None
+[2025-09-20T12:11:30.581+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/manual_full_load.py took 0.083 seconds

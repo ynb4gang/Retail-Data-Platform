@@ -1,0 +1,95 @@
+[2025-09-20T10:30:17.088+0200] {processor.py:157} INFO - Started process (PID=666) to work on /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:30:17.090+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_competitors_pipeline.py for tasks to queue
+[2025-09-20T10:30:17.091+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:30:17.091+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:30:18.167+0200] {processor.py:836} INFO - DAG(s) dict_keys(['etl_competitors_pipeline']) retrieved from /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:30:18.574+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:30:18.574+0200] {manager.py:504} INFO - Created Permission View: can delete on DAG:etl_competitors_pipeline
+[2025-09-20T10:30:18.584+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:30:18.584+0200] {manager.py:504} INFO - Created Permission View: can read on DAG:etl_competitors_pipeline
+[2025-09-20T10:30:18.591+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:30:18.591+0200] {manager.py:504} INFO - Created Permission View: can edit on DAG:etl_competitors_pipeline
+[2025-09-20T10:30:18.608+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:30:18.607+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:30:18.623+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:30:18.622+0200] {dag.py:2763} INFO - Creating ORM DAG for etl_competitors_pipeline
+[2025-09-20T10:30:18.637+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:30:18.637+0200] {dag.py:3508} INFO - Setting next_dagrun for etl_competitors_pipeline to 2025-09-20T07:00:00+00:00, run_after=2025-09-20T08:00:00+00:00
+[2025-09-20T10:30:18.658+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_competitors_pipeline.py took 1.574 seconds
+[2025-09-20T10:30:49.533+0200] {processor.py:157} INFO - Started process (PID=706) to work on /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:30:49.534+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_competitors_pipeline.py for tasks to queue
+[2025-09-20T10:30:49.535+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:30:49.535+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:30:49.875+0200] {processor.py:836} INFO - DAG(s) dict_keys(['etl_competitors_pipeline']) retrieved from /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:30:49.904+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:30:49.904+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:30:49.930+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:30:49.930+0200] {dag.py:3508} INFO - Setting next_dagrun for etl_competitors_pipeline to 2025-09-20T07:00:00+00:00, run_after=2025-09-20T08:00:00+00:00
+[2025-09-20T10:30:49.948+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_competitors_pipeline.py took 0.418 seconds
+[2025-09-20T10:31:20.901+0200] {processor.py:157} INFO - Started process (PID=746) to work on /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:31:20.902+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_competitors_pipeline.py for tasks to queue
+[2025-09-20T10:31:20.903+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:31:20.902+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:31:21.197+0200] {processor.py:836} INFO - DAG(s) dict_keys(['etl_competitors_pipeline']) retrieved from /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:31:21.228+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:31:21.228+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:31:21.251+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:31:21.251+0200] {dag.py:3508} INFO - Setting next_dagrun for etl_competitors_pipeline to 2025-09-20T07:00:00+00:00, run_after=2025-09-20T08:00:00+00:00
+[2025-09-20T10:31:21.266+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_competitors_pipeline.py took 0.369 seconds
+[2025-09-20T10:31:51.701+0200] {processor.py:157} INFO - Started process (PID=786) to work on /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:31:51.703+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_competitors_pipeline.py for tasks to queue
+[2025-09-20T10:31:51.704+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:31:51.703+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:31:52.026+0200] {processor.py:836} INFO - DAG(s) dict_keys(['etl_competitors_pipeline']) retrieved from /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:31:52.062+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:31:52.061+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:31:52.089+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:31:52.089+0200] {dag.py:3508} INFO - Setting next_dagrun for etl_competitors_pipeline to 2025-09-20T07:00:00+00:00, run_after=2025-09-20T08:00:00+00:00
+[2025-09-20T10:31:52.290+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_competitors_pipeline.py took 0.594 seconds
+[2025-09-20T10:32:23.034+0200] {processor.py:157} INFO - Started process (PID=826) to work on /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:32:23.038+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_competitors_pipeline.py for tasks to queue
+[2025-09-20T10:32:23.040+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:32:23.040+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:32:23.348+0200] {processor.py:836} INFO - DAG(s) dict_keys(['etl_competitors_pipeline']) retrieved from /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:32:23.372+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:32:23.372+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:32:23.393+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:32:23.393+0200] {dag.py:3508} INFO - Setting next_dagrun for etl_competitors_pipeline to 2025-09-20T07:00:00+00:00, run_after=2025-09-20T08:00:00+00:00
+[2025-09-20T10:32:23.406+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_competitors_pipeline.py took 0.375 seconds
+[2025-09-20T10:32:53.736+0200] {processor.py:157} INFO - Started process (PID=866) to work on /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:32:53.737+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_competitors_pipeline.py for tasks to queue
+[2025-09-20T10:32:53.738+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:32:53.737+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:32:54.020+0200] {processor.py:836} INFO - DAG(s) dict_keys(['etl_competitors_pipeline']) retrieved from /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:32:54.043+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:32:54.042+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:32:54.062+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:32:54.062+0200] {dag.py:3508} INFO - Setting next_dagrun for etl_competitors_pipeline to 2025-09-20T07:00:00+00:00, run_after=2025-09-20T08:00:00+00:00
+[2025-09-20T10:32:54.076+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_competitors_pipeline.py took 0.343 seconds
+[2025-09-20T10:33:24.415+0200] {processor.py:157} INFO - Started process (PID=906) to work on /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:33:24.416+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_competitors_pipeline.py for tasks to queue
+[2025-09-20T10:33:24.418+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:33:24.418+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:33:24.766+0200] {processor.py:836} INFO - DAG(s) dict_keys(['etl_competitors_pipeline']) retrieved from /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:33:24.798+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:33:24.797+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:33:24.822+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:33:24.822+0200] {dag.py:3508} INFO - Setting next_dagrun for etl_competitors_pipeline to 2025-09-20T07:00:00+00:00, run_after=2025-09-20T08:00:00+00:00
+[2025-09-20T10:33:24.837+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_competitors_pipeline.py took 0.428 seconds
+[2025-09-20T10:33:55.812+0200] {processor.py:157} INFO - Started process (PID=946) to work on /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:33:55.813+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_competitors_pipeline.py for tasks to queue
+[2025-09-20T10:33:55.815+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:33:55.815+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:33:56.108+0200] {processor.py:836} INFO - DAG(s) dict_keys(['etl_competitors_pipeline']) retrieved from /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:33:56.135+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:33:56.134+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:33:56.155+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:33:56.155+0200] {dag.py:3508} INFO - Setting next_dagrun for etl_competitors_pipeline to 2025-09-20T07:00:00+00:00, run_after=2025-09-20T08:00:00+00:00
+[2025-09-20T10:33:56.168+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_competitors_pipeline.py took 0.359 seconds
+[2025-09-20T10:34:26.489+0200] {processor.py:157} INFO - Started process (PID=986) to work on /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:34:26.490+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_competitors_pipeline.py for tasks to queue
+[2025-09-20T10:34:26.491+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:34:26.491+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:34:26.725+0200] {processor.py:836} INFO - DAG(s) dict_keys(['etl_competitors_pipeline']) retrieved from /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:34:26.746+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:34:26.746+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:34:26.766+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:34:26.766+0200] {dag.py:3508} INFO - Setting next_dagrun for etl_competitors_pipeline to 2025-09-20T07:00:00+00:00, run_after=2025-09-20T08:00:00+00:00
+[2025-09-20T10:34:26.781+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_competitors_pipeline.py took 0.295 seconds
+[2025-09-20T10:34:57.167+0200] {processor.py:157} INFO - Started process (PID=1026) to work on /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:34:57.168+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_competitors_pipeline.py for tasks to queue
+[2025-09-20T10:34:57.169+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:34:57.169+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:34:57.508+0200] {processor.py:836} INFO - DAG(s) dict_keys(['etl_competitors_pipeline']) retrieved from /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:34:57.543+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:34:57.543+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:34:57.571+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:34:57.571+0200] {dag.py:3508} INFO - Setting next_dagrun for etl_competitors_pipeline to 2025-09-20T07:00:00+00:00, run_after=2025-09-20T08:00:00+00:00
+[2025-09-20T10:34:57.696+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_competitors_pipeline.py took 0.534 seconds
+[2025-09-20T10:35:28.094+0200] {processor.py:157} INFO - Started process (PID=1066) to work on /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:35:28.099+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_competitors_pipeline.py for tasks to queue
+[2025-09-20T10:35:28.100+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:35:28.100+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:35:28.442+0200] {processor.py:836} INFO - DAG(s) dict_keys(['etl_competitors_pipeline']) retrieved from /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:35:28.468+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:35:28.468+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:35:28.489+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:35:28.489+0200] {dag.py:3508} INFO - Setting next_dagrun for etl_competitors_pipeline to 2025-09-20T07:00:00+00:00, run_after=2025-09-20T08:00:00+00:00
+[2025-09-20T10:35:28.506+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_competitors_pipeline.py took 0.416 seconds
+[2025-09-20T10:35:58.877+0200] {processor.py:157} INFO - Started process (PID=1106) to work on /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:35:58.878+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_competitors_pipeline.py for tasks to queue
+[2025-09-20T10:35:58.879+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:35:58.879+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:35:59.190+0200] {processor.py:836} INFO - DAG(s) dict_keys(['etl_competitors_pipeline']) retrieved from /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:35:59.225+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:35:59.224+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:35:59.254+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:35:59.254+0200] {dag.py:3508} INFO - Setting next_dagrun for etl_competitors_pipeline to 2025-09-20T07:00:00+00:00, run_after=2025-09-20T08:00:00+00:00
+[2025-09-20T10:35:59.272+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_competitors_pipeline.py took 0.400 seconds
+[2025-09-20T10:36:30.219+0200] {processor.py:157} INFO - Started process (PID=1146) to work on /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:36:30.223+0200] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_competitors_pipeline.py for tasks to queue
+[2025-09-20T10:36:30.224+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:36:30.224+0200] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:36:30.532+0200] {processor.py:836} INFO - DAG(s) dict_keys(['etl_competitors_pipeline']) retrieved from /opt/airflow/dags/etl_competitors_pipeline.py
+[2025-09-20T10:36:30.558+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:36:30.557+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-09-20T10:36:30.580+0200] {logging_mixin.py:150} INFO - [2025-09-20T10:36:30.579+0200] {dag.py:3508} INFO - Setting next_dagrun for etl_competitors_pipeline to 2025-09-20T07:00:00+00:00, run_after=2025-09-20T08:00:00+00:00
+[2025-09-20T10:36:30.593+0200] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_competitors_pipeline.py took 0.377 seconds
