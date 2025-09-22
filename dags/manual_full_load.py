@@ -262,7 +262,6 @@ with DAG(
         load_fct_promotions
     ]
     
-    # Все fact таблицы должны завершиться перед end
     [
         load_fct_sales,
         load_fct_sales_history,
